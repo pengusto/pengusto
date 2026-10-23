@@ -1,0 +1,49 @@
+name: Refresh purple profile widgets
+
+on:
+  schedule:
+    - cron: '23 5 * * *' # Daily, 05:23 UTC; GitHub may delay scheduled runs.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: refresh-purple-profile
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    if: github.repository == 'pengusto/pengusto'
+    runs-on: ubuntu-latest
+    timeout-minutes: 8
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          ref: ${{ github.event.repository.default_branch }}
+      - name: Set up Python
+        uses: actions/setup-python@ece7cb06caefa5fff74198d8649806c4678c61a1 # v6
+        with:
+          python-version: '3.12'
+      - name: Install renderer dependency
+        run: python -m pip install --disable-pip-version-check -r requirements-profile.txt
+      - name: Check update behavior
+        run: python -m unittest discover -s tests -p 'test_profile_update.py'
+      - name: Fetch public GitHub data and regenerate widgets
+        run: python scripts/update_profile.py --output .
+      - name: Commit changed generated files only
+        env:
+          TARGET_BRANCH: ${{ github.event.repository.default_branch }}
+        run: |
+          git add -- assets/city.svg assets/city-light.svg assets/city-mobile.svg assets/city-light-mobile.svg assets/scan.svg assets/scan-mobile.svg assets/scan-light.svg assets/scan-light-mobile.svg github-data.json
+          if git diff --cached --quiet; then
+            echo 'Profile data unchanged; no commit needed.'
+            exit 0
+          fi
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git commit -m 'chore: refresh purple profile widgets'
+          git push origin "HEAD:$TARGET_BRANCH"

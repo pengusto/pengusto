@@ -1,0 +1,5 @@
+{
+  "checked_at": "2026-10-23",
+  "scope": "public merged PRs authored by pengusto outside pengusto-owned repositories",
+  "items": [{"repository": "lidge-jun/opencodex", "number": 6388, "merged_at": "2026-10-01T14:28:40Z", "url": "https://github.com/lidge-jun/opencodex/pull/6388", "author": "pengusto", "merged": true}]
+}
