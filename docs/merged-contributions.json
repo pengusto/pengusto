@@ -1,5 +1,48 @@
 {
-  "checked_at": "2026-10-23",
-  "scope": "public merged PRs authored by pengusto outside pengusto-owned repositories",
-  "items": [{"repository": "lidge-jun/opencodex", "number": 6388, "merged_at": "2026-10-01T14:28:40Z", "url": "https://github.com/lidge-jun/opencodex/pull/6388", "author": "pengusto", "merged": true}]
+  "checked_at": "2026-10-24",
+  "scope": "public contributions accepted upstream, including maintainer-confirmed batch integrations",
+  "items": [
+    {
+      "repository": "lidge-jun/opencodex",
+      "number": 6388,
+      "merged_at": "2026-10-01T14:28:40Z",
+      "url": "https://github.com/lidge-jun/opencodex/pull/6388",
+      "author": "pengusto",
+      "merged": true
+    },
+    {
+      "repository": "ellite/Wallos",
+      "number": 1260,
+      "url": "https://github.com/ellite/Wallos/pull/1260",
+      "author": "pengusto",
+      "merged": false,
+      "state": "closed",
+      "accepted_via": {
+        "number": 1267,
+        "url": "https://github.com/ellite/Wallos/pull/1267",
+        "merged": true,
+        "merged_at": "2026-10-17T13:09:07Z",
+        "merge_commit_sha": "c36e2f4fe1078e6b5598b7c6ada7698301a82727"
+      },
+      "maintainer_confirmation": "https://github.com/ellite/Wallos/pull/1260#issuecomment-6234315805",
+      "summary": "missing subscription relations"
+    },
+    {
+      "repository": "ellite/Wallos",
+      "number": 1263,
+      "url": "https://github.com/ellite/Wallos/pull/1263",
+      "author": "pengusto",
+      "merged": false,
+      "state": "closed",
+      "accepted_via": {
+        "number": 1267,
+        "url": "https://github.com/ellite/Wallos/pull/1267",
+        "merged": true,
+        "merged_at": "2026-10-17T13:09:07Z",
+        "merge_commit_sha": "c36e2f4fe1078e6b5598b7c6ada7698301a82727"
+      },
+      "maintainer_confirmation": "https://github.com/ellite/Wallos/pull/1263#issuecomment-6234316162",
+      "summary": "preserve theme layout classes"
+    }
+  ]
 }

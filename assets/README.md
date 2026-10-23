@@ -4,11 +4,11 @@ The purple penguin banner is an AI-assisted recolouring of the owner-provided pe
 
 The intro and project cards are custom SVG compositions. The profile intro embeds the public GitHub avatar from https://avatars.githubusercontent.com/u/106893073?v=4. That avatar is an existing user-selected image; this repository makes no new claim of ownership or licence for it.
 
-City and desktop/mobile scan SVGs are independently generated from the public GitHub calendar, profile metadata and avatar, using scripts/update_profile.py and scripts/profile_widgets.py. No GitSkins graphic or CSS filter is used. Calendar counts, source and last successful update are recorded in github-data.json. The scanline animation is decorative; numbers refresh with the scheduled workflow rather than on each profile visit.
+City, desktop/mobile scan and public project-card SVGs are independently generated from the public GitHub calendar, profile metadata, avatar and selected public repository metadata, using scripts/update_profile.py, scripts/profile_widgets.py and scripts/profile_projects.py. No GitSkins graphic or CSS filter is used. Calendar counts, source and last successful update are recorded in github-data.json. The scanline animation is decorative; numbers refresh with the scheduled workflow rather than on each profile visit.
 
 The Kaplum GIF contains actual application screenshots from https://pengusto.github.io/kaplum-studio/#course/square, captured on 22 October 2026: reset drawing playback, then next drawing step up to step 11. Timing is condensed. It does not depict simulated functionality.
 
-The small linked SVG labels give README links a purple appearance independent of the reader's GitHub theme. Each retains alternative text and a normal anchor destination. Profile/card layouts use separate desktop/mobile assets through picture/source.
+The small linked SVG labels give README links an iris-indigo appearance independent of the reader's GitHub theme. Each retains alternative text and a normal anchor destination. Profile/card layouts use separate desktop/mobile assets through picture/source.
 
 The previous profile-banner.png is retained as the original published banner. No new repository-wide licence is introduced by this preparation.
 
@@ -23,4 +23,6 @@ The banner is an AI-generated illustration. It is not a screenshot or a project 
 
 ## Light and dark variants
 
-Paired light/dark desktop and optional mobile banner artwork was prepared with the built-in Imagegen tool from the existing pengusto illustration. Static SVG compositions and linked labels use explicit light/dark palettes. City and scan widgets in both themes and sizes are generated together by the portable updater. Mobile compositions are used where they improve text readability; they are not required for every project banner. Source artwork and the original banner are retained.
+Paired light/dark desktop and optional mobile banner artwork was prepared with the built-in Imagegen tool from the existing pengusto illustration. Static SVG compositions and linked labels use explicit light/dark palettes. City, scan and Landmarks widgets in both themes and sizes are generated together by the portable updater. Mobile compositions are used where they improve text readability; they are not required for every project banner. Source artwork and the original banner are retained.
+
+The 24 October 2026 refinement uses a cooler iris-indigo palette in the SVG fills and strokes. No GitSkins graphic was copied. Project rings are real language-byte shares, and metadata refreshes daily from a strict public-only selection. The city footer includes @pengusto.

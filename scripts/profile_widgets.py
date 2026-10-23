@@ -4,7 +4,8 @@ from html import escape
 import json, math, io, re
 from PIL import Image, ImageFilter
 from datetime import date
-from profile_theme import light_svg
+from profile_theme import dark_svg, light_svg
+from profile_projects import render_projects
 def t(x,y,s,size=20,color='#d6c9e8',weight=400,anchor='start'):
  return f'<text x="{x}" y="{y}" fill="{color}" font-family="Arial,sans-serif" font-size="{size}" font-weight="{weight}" text-anchor="{anchor}">{escape(str(s))}</text>'
 def frame(w,h,inner,label):
@@ -12,7 +13,7 @@ def frame(w,h,inner,label):
 def render(out, days, profile, avatar, fetched_at, input_hash):
  a=out/'assets';a.mkdir(parents=True,exist_ok=True)
  total=sum(d['count'] for d in days);active=sum(d['count']>0 for d in days);peak=max(d['count'] for d in days)
- data={'source':'https://github.com/users/pengusto/contributions','fetched_at':fetched_at,'input_hash':input_hash,'days':days,'total':total,'active_days':active,'peak':peak,'public_repos':profile['public_repos'],'followers':profile['followers']}
+ data={'source':'https://github.com/users/pengusto/contributions','fetched_at':fetched_at,'input_hash':input_hash,'days':days,'total':total,'active_days':active,'peak':peak,'public_repos':profile['public_repos'],'followers':profile['followers'],'projects':profile['projects']}
  (out/'github-data.json').write_text(json.dumps(data,indent=2)+'\n')
  # Independent isometric calendar: one cuboid per real contribution-calendar day.
  inner='<defs><radialGradient id="glow"><stop stop-color="#9d61e8" stop-opacity=".28"/><stop offset="1" stop-color="#131119" stop-opacity="0"/></radialGradient></defs><ellipse cx="480" cy="230" rx="350" ry="170" fill="url(#glow)"/>'
@@ -35,8 +36,9 @@ def render(out, days, profile, avatar, fetched_at, input_hash):
   city_scene+=f'<g><title>{day["date"]}: {day["count"]} contributions</title><polygon points="{right}" fill="{rights[level]}"/><polygon points="{left}" fill="{lefts[level]}"/><polygon points="{top}" fill="{tops[level]}" stroke="#c4a1ff" stroke-opacity=".12" stroke-width=".5"/></g>'
  inner+=city_scene
  inner+=f'<rect x="170" y="190" width="605" height="1" fill="#d3b0ff" opacity=".16"><animate attributeName="y" values="155;355;155" dur="9s" repeatCount="indefinite"/></rect>'
- inner+=t(28,396,days[0]['date']+' → '+days[-1]['date']+' · one building per day',12,'#a897bd')
- inner+=t(832,396,'CUSTOM / GITHUB DATA',11,'#a897bd',anchor='end')
+ inner+=t(28,375,'@pengusto',15,'#bd93f9',700)
+ inner+=t(28,399,days[0]['date']+' → '+days[-1]['date'],12,'#a897bd')
+ inner+=t(832,399,'ONE BUILDING PER DAY / PUBLIC GITHUB DATA',10,'#a897bd',anchor='end')
  (a/'city.svg').write_text(frame(860,420,inner,'Pengusto contribution city: '+str(total)+' actual contributions across '+str(len(days))+' calendar days. Purple isometric view.'))
  # Mobile city has larger summary labels and its own taller composition.
  mobile=re.search(r'(<defs>.*?</defs>)',inner).group(1)
@@ -44,7 +46,8 @@ def render(out, days, profile, avatar, fetched_at, input_hash):
  mobile+=t(28,112,f'{total:,} contributions',46,'#f4edff',700)
  mobile+=t(28,166,f'{active} active days · busiest day: {peak}',30)
  mobile+=f'<g transform="translate(-45 190) scale(1.1)">{city_scene}</g>'
- mobile+=t(28,644,days[0]['date']+' → '+days[-1]['date'],25,'#a897bd')
+ mobile+=t(28,610,'@pengusto',29,'#bd93f9',700)
+ mobile+=t(28,650,days[0]['date']+' → '+days[-1]['date'],23,'#a897bd')
  (a/'city-mobile.svg').write_text(frame(860,680,mobile,'Pengusto contribution city — mobile. '+str(total)+' actual contributions.'))
  # ASCII portrait derived from the unmodified public avatar embedded in the earlier draft.
  im=Image.open(io.BytesIO(avatar)).convert('L').resize((44,27)).filter(ImageFilter.FIND_EDGES)
@@ -70,4 +73,7 @@ def render(out, days, profile, avatar, fetched_at, input_hash):
 
  # Both themes derive from the same validated data and layout.
  for dark_name,light_name in [('city.svg','city-light.svg'),('city-mobile.svg','city-light-mobile.svg'),('scan.svg','scan-light.svg'),('scan-mobile.svg','scan-light-mobile.svg')]:
-  (a/light_name).write_text(light_svg((a/dark_name).read_text()))
+  raw=(a/dark_name).read_text()
+  (a/dark_name).write_text(dark_svg(raw))
+  (a/light_name).write_text(light_svg(raw))
+ render_projects(a,profile['projects'])

@@ -15,7 +15,8 @@ NOW=datetime(2026,10,23,12,tzinfo=timezone.utc)
 def fixture(zero=False):
     days=[{'date':str(NOW.date()-timedelta(days=364-i)),'count':0 if zero or i%5 else 2,'level':0 if zero or i%5 else 1} for i in range(365)]
     buffer=io.BytesIO(); Image.new('RGB',(12,12),'#bd93f9').save(buffer,format='PNG')
-    return days,{'public_repos':28,'followers':2},buffer.getvalue()
+    projects=[{'name':name,'description':'A public project with a useful purpose.','url':'https://github.com/pengusto/'+name,'topics':['developer-tools','learning'],'stars':i,'pushed_at':'2026-10-23T12:00:00Z','languages':{'JavaScript':80,'HTML':20}} for i,name in enumerate(('kaplum-studio','push-my-tabs','let-him-grill','penguin-patches'))]
+    return days,{'public_repos':28,'followers':2,'projects':projects},buffer.getvalue()
 
 def snapshot(root):
     return {str(p.relative_to(root)):p.read_bytes() for p in root.rglob('*') if p.is_file()}
@@ -47,7 +48,7 @@ class UpdateTests(unittest.TestCase):
             root=Path(temp); update(root,source=lambda _:fixture(),now=NOW)
             days,profile,avatar=fixture();days[-1]['count']=33;days[-1]['level']=4
             changed=update(root,source=lambda _:(days,profile,avatar),now=NOW+timedelta(hours=1))
-            self.assertEqual(set(changed),set(FILES))
+            self.assertEqual(set(changed),{name for name in FILES if '/projects' not in name})
             manifest=json.loads((root/'github-data.json').read_text())
             self.assertEqual(manifest['total'],sum(d['count'] for d in days))
             for name in ['scan.svg','scan-mobile.svg','scan-light.svg','scan-light-mobile.svg']:
@@ -68,12 +69,12 @@ class UpdateTests(unittest.TestCase):
     def test_light_palette_preserves_data_and_readable_text(self):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp); update(root,source=lambda _:fixture(),now=NOW)
-            for dark,light in [('city.svg','city-light.svg'),('city-mobile.svg','city-light-mobile.svg'),('scan.svg','scan-light.svg'),('scan-mobile.svg','scan-light-mobile.svg')]:
+            for dark,light in [('city.svg','city-light.svg'),('city-mobile.svg','city-light-mobile.svg'),('scan.svg','scan-light.svg'),('scan-mobile.svg','scan-light-mobile.svg'),('projects.svg','projects-light.svg'),('projects-mobile.svg','projects-light-mobile.svg')]:
                 import xml.etree.ElementTree as ET
                 a=ET.parse(root/'assets'/dark).getroot()
                 b=ET.parse(root/'assets'/light).getroot()
                 self.assertEqual(list(a.itertext()),list(b.itertext()))
-                self.assertIn('#faf7ff',(root/'assets'/light).read_text())
+                self.assertIn('#f7f8ff',(root/'assets'/light).read_text())
                 self.assertNotIn('<filter',(root/'assets'/light).read_text())
             from profile_theme import light_svg
             with self.assertRaisesRegex(ValueError,'missing'):
@@ -84,5 +85,47 @@ class UpdateTests(unittest.TestCase):
             root=Path(temp);update(root,source=lambda _:fixture(zero=True),now=NOW)
             data=json.loads((root/'github-data.json').read_text())
             self.assertEqual((data['total'],data['active_days'],data['peak']),(0,0,0))
+
+
+    def test_project_stats_refresh_all_variants_without_completion_claims(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp); update(root,source=lambda _:fixture(),now=NOW)
+            days,profile,avatar=fixture();profile['projects'][0]['stars']=17
+            profile['projects'][0]['languages']={'JavaScript':55,'HTML':45}
+            changed=update(root,source=lambda _:(days,profile,avatar),now=NOW)
+            self.assertEqual(set(changed),{name for name in FILES if '/projects' in name or name=='github-data.json'})
+            for name in ('projects.svg','projects-mobile.svg','projects-light.svg','projects-light-mobile.svg'):
+                svg=(root/'assets'/name).read_text()
+                self.assertIn('55%',svg);self.assertIn('★ 17',svg)
+                self.assertIn('code share',svg)
+                self.assertNotIn('completion', ''.join(__import__('re').findall(r'<text[^>]*>(.*?)</text>',svg)))
+            self.assertEqual(update(root,source=lambda _:(days,profile,avatar),now=NOW),[])
+
+    def test_rejects_private_or_unexpected_project_data(self):
+        from profile_projects import validate_project
+        meta={'full_name':'pengusto/kaplum-studio','private':False,'html_url':'https://github.com/pengusto/kaplum-studio','stargazers_count':1,'pushed_at':'2026-10-23T12:00:00Z','topics':[]}
+        self.assertEqual(validate_project(meta,{},'kaplum-studio')['name'],'kaplum-studio')
+        for bad in ({**meta,'private':True},{**meta,'full_name':'another/kaplum-studio'},{**meta,'stargazers_count':-1}):
+            with self.assertRaises(ValueError):validate_project(bad,{'JavaScript':3},'kaplum-studio')
+        with self.assertRaises(ValueError):validate_project(meta,{'JavaScript':-3},'kaplum-studio')
+
+    def test_city_has_handle_and_workflow_stages_every_generated_file(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);update(root,source=lambda _:fixture(),now=NOW)
+            for name in ('city.svg','city-mobile.svg','city-light.svg','city-light-mobile.svg'):
+                self.assertIn('@pengusto',(root/'assets'/name).read_text())
+        workflow=(Path(__file__).parents[1]/'.github/workflows/refresh-profile.yml').read_text()
+        for name in FILES:self.assertIn(name,workflow)
+
+    def test_batched_upstream_acceptance_keeps_original_pr_status(self):
+        data=json.loads((Path(__file__).parents[1]/'docs/merged-contributions.json').read_text())
+        wallos=[x for x in data['items'] if x['repository']=='ellite/Wallos']
+        self.assertEqual({x['number'] for x in wallos},{1260,1263})
+        for entry in wallos:
+            self.assertFalse(entry['merged'])
+            self.assertEqual(entry['state'],'closed')
+            self.assertEqual(entry['accepted_via']['number'],1267)
+            self.assertTrue(entry['accepted_via']['merged'])
+            self.assertIn('#issuecomment-',entry['maintainer_confirmation'])
 
 if __name__=='__main__': unittest.main()

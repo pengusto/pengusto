@@ -1,19 +1,22 @@
-"""Refresh only four generated files. This script never commits or pushes."""
+"""Refresh public calendar, scan and project cards; never commit or push."""
 import argparse
 from datetime import date, datetime, timedelta, timezone
 import hashlib
 from html.parser import HTMLParser
 import json
+import os
 from pathlib import Path
 import re
 import tempfile
 import time
 from urllib.error import HTTPError, URLError
 from urllib.request import Request, urlopen
+from urllib.parse import urlparse
 import xml.etree.ElementTree as ET
 from profile_widgets import render
+from profile_projects import PROJECT_NAMES, validate_project
 
-FILES=('assets/city.svg','assets/city-light.svg','assets/city-mobile.svg','assets/city-light-mobile.svg','assets/scan.svg','assets/scan-mobile.svg','assets/scan-light.svg','assets/scan-light-mobile.svg','github-data.json')
+FILES=('assets/city.svg','assets/city-light.svg','assets/city-mobile.svg','assets/city-light-mobile.svg','assets/scan.svg','assets/scan-mobile.svg','assets/scan-light.svg','assets/scan-light-mobile.svg','assets/projects.svg','assets/projects-mobile.svg','assets/projects-light.svg','assets/projects-light-mobile.svg','github-data.json')
 OWNER='pengusto'
 
 class Calendar(HTMLParser):
@@ -57,7 +60,11 @@ def parse_calendar(html, today):
 def fetch(url):
     for attempt in range(3):
         try:
-            request=Request(url,headers={'User-Agent':'pengusto-profile-widgets','Accept-Language':'en-US,en;q=0.9'})
+            headers={'User-Agent':'pengusto-profile-widgets','Accept-Language':'en-US,en;q=0.9'}
+            token=os.environ.get('GITHUB_TOKEN')
+            if token and urlparse(url).hostname=='api.github.com':
+                headers['Authorization']='Bearer '+token
+            request=Request(url,headers=headers)
             with urlopen(request,timeout=30) as response:
                 data=response.read(5_000_001)
             if len(data)>5_000_000: raise ValueError('Public response exceeds expected size')
@@ -75,6 +82,11 @@ def collect(today):
     for key in ('public_repos','followers'):
         if type(profile.get(key)) is not int or profile[key]<0: raise ValueError('Invalid profile metric')
     avatar=fetch(f'https://avatars.githubusercontent.com/u/106893073?v=4')
+    profile['projects']=[]
+    for name in PROJECT_NAMES:
+        meta=json.loads(fetch(f'https://api.github.com/repos/{OWNER}/{name}'))
+        languages=json.loads(fetch(f'https://api.github.com/repos/{OWNER}/{name}/languages'))
+        profile['projects'].append(validate_project(meta,languages,name))
     return parse_calendar(calendar,today),profile,avatar
 
 def update(output, *, dry_run=False, source=collect, now=None):
@@ -82,8 +94,8 @@ def update(output, *, dry_run=False, source=collect, now=None):
     days,profile,avatar=source(now.date())
     # Exclude retrieval time and irrelevant API metadata: identical input is a no-op.
     material={'days':days,'public_repos':profile['public_repos'],'followers':profile['followers'],
-              'avatar_sha256':hashlib.sha256(avatar).hexdigest(),
-              'renderer_sha256':hashlib.sha256(Path(__file__).with_name('profile_widgets.py').read_bytes()+Path(__file__).with_name('profile_theme.py').read_bytes()).hexdigest()}
+              'avatar_sha256':hashlib.sha256(avatar).hexdigest(),'projects':profile['projects'],
+              'renderer_sha256':hashlib.sha256(Path(__file__).with_name('profile_widgets.py').read_bytes()+Path(__file__).with_name('profile_theme.py').read_bytes()+Path(__file__).with_name('profile_projects.py').read_bytes()).hexdigest()}
     digest=hashlib.sha256(json.dumps(material,sort_keys=True).encode()).hexdigest()
     previous={}
     manifest=output/'github-data.json'

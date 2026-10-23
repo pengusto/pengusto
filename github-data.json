@@ -1,7 +1,7 @@
 {
   "source": "https://github.com/users/pengusto/contributions",
-  "fetched_at": "2026-10-23T16:22:37.853552+00:00",
-  "input_hash": "06f8426698d3cd676624032e91bd34c6e725ba8d37b3ad239084c1c0188ade22",
+  "fetched_at": "2026-10-23T22:04:09.349577+00:00",
+  "input_hash": "b8672f946a9eaceeb2181bf949689c0f2a77cfa2d470b699f48fc1dbd022abfa",
   "days": [
     {
       "date": "2025-10-19",
@@ -1741,7 +1741,7 @@
     {
       "date": "2026-10-01",
       "level": 1,
-      "count": 5
+      "count": 4
     },
     {
       "date": "2026-10-02",
@@ -1850,13 +1850,82 @@
     },
     {
       "date": "2026-10-23",
-      "level": 2,
-      "count": 45
+      "level": 3,
+      "count": 92
     }
   ],
-  "total": 2884,
+  "total": 2930,
   "active_days": 156,
   "peak": 222,
-  "public_repos": 28,
-  "followers": 2
+  "public_repos": 27,
+  "followers": 2,
+  "projects": [
+    {
+      "name": "kaplum-studio",
+      "description": "Learn JavaScript by drawing: a visual Turtle studio with editable examples, guided experiments, code stepping and offline project export.",
+      "url": "https://github.com/pengusto/kaplum-studio",
+      "topics": [
+        "creative-coding",
+        "education",
+        "javascript"
+      ],
+      "stars": 0,
+      "pushed_at": "2026-10-23T15:42:39Z",
+      "languages": {
+        "JavaScript": 744804,
+        "CSS": 94612,
+        "Shell": 76
+      }
+    },
+    {
+      "name": "push-my-tabs",
+      "description": "Layout-aware keyboard shortcuts and quick tab actions for Chrome and Firefox. Switch and move horizontal or vertical tabs.",
+      "url": "https://github.com/pengusto/push-my-tabs",
+      "topics": [
+        "chrome-extension",
+        "firefox-addon",
+        "keyboard-shortcuts"
+      ],
+      "stars": 0,
+      "pushed_at": "2026-10-23T12:24:06Z",
+      "languages": {
+        "JavaScript": 73319,
+        "HTML": 43759,
+        "CSS": 26630,
+        "Shell": 2313
+      }
+    },
+    {
+      "name": "let-him-grill",
+      "description": "A Codex planning skill: resolve reversible decisions, stop at human gates, and resume the decision path.",
+      "url": "https://github.com/pengusto/let-him-grill",
+      "topics": [
+        "agent-skills",
+        "ai-agents",
+        "codex"
+      ],
+      "stars": 1,
+      "pushed_at": "2026-10-23T12:27:40Z",
+      "languages": {
+        "Python": 52377,
+        "HTML": 29891
+      }
+    },
+    {
+      "name": "penguin-patches",
+      "description": "Focused Android app patches compatible with Morphe. Current catalogue: Fossify Calendar, Messages, File Manager, Contacts and Music Player. Pre-release.",
+      "url": "https://github.com/pengusto/penguin-patches",
+      "topics": [
+        "android",
+        "android-patches",
+        "fossify"
+      ],
+      "stars": 2,
+      "pushed_at": "2026-10-23T13:11:53Z",
+      "languages": {
+        "Kotlin": 8555,
+        "Java": 4273
+      }
+    }
+  ]
 }
