@@ -1,6 +1,6 @@
-# Purple profile: prepared automatic updates
+# Purple profile: automatic updates
 
-Status: local preparation only. The workflow has not been added to a GitHub repository, enabled, dispatched or pushed. Existing published profile content and history are untouched.
+Status: published to `pengusto/pengusto` on 23 October 2026. The first manually dispatched [hosted workflow run](https://github.com/pengusto/pengusto/actions/runs/39986202267) succeeded. Existing commit history is preserved.
 
 ## Intended behavior
 
@@ -12,7 +12,7 @@ The workflow checks public data once a day at 05:23 UTC and can also be started 
 - `assets/scan-mobile.svg`, `assets/scan-light-mobile.svg`
 - `github-data.json`
 
-The update script itself never commits or pushes. Only the prepared GitHub Actions workflow contains that future publishing step. Bot commits use `github-actions[bot]` rather than a personal name. There is no push trigger or force-push step.
+The update script itself never commits or pushes. The GitHub Actions workflow handles the publishing step. Bot commits use `github-actions[bot]` rather than a personal name. There is no push trigger or force-push step.
 
 The banner, profile introduction, project list and Kaplum demo remain static assets. GitHub caches README images; an updated commit may not appear immediately. The numbers are periodically refreshed data, not a live feed on every profile view.
 
@@ -38,9 +38,9 @@ The updater fetches and validates all inputs, renders to a temporary directory, 
 
 Identical inputs preserve the prior retrieval timestamp and produce no file changes, so a repeat run does not create an empty update commit. Actual changes to data, avatar, renderer or calendar date window regenerate the output. Rolling date windows can legitimately produce daily changes even when no new contributions were made.
 
-## Later activation, after explicit publishing approval
+## Activation and operation
 
-The complete package is assembled on the local preparation branch. Nothing is published or activated by opening the local preview. An actual hosted Actions run and a rendered GitHub profile still need verification after an approved publication.
+The profile and workflow were published with explicit approval. Manual dispatch verified hosted execution. The published profile was checked in dark and light mode at 390 px and 1440 px: all 35 README images loaded, the matching theme and mobile sources were selected, and there was no horizontal overflow. Opening a local preview does not publish changes.
 
 GitHub schedules can be delayed or dropped under load, and scheduled workflows in a public repository can be disabled after 60 days without repository activity. Manual dispatch remains the recovery route once enabled.
 
@@ -48,7 +48,7 @@ References: [GitHub schedule behavior](https://docs.github.com/en/actions/refere
 
 ## Verified locally on 23 October 2026
 
-Six regression tests passed. A live public-data dry run succeeded; the local preview was refreshed, and a second live dry run reported no changes. Workflow YAML parsed successfully and action references are pinned. The integrated banner, scan and city passed browser checks at 320, 390, 600 and 768 px with all 24 images loaded. Hosted Actions execution and repository write permission remain untested until approved publication.
+Six regression tests passed. A live public-data dry run succeeded; the local preview was refreshed, and a second live dry run reported no changes. Workflow YAML parsed successfully and action references are pinned. The integrated banner, scan and city passed browser checks at 320, 390, 600 and 768 px with all 24 images loaded. Hosted execution and repository write permission were subsequently verified by the successful workflow run linked above.
 
 ## Light/dark variants
 
