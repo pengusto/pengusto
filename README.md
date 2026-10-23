@@ -5,6 +5,21 @@
 I build tools that make technology easier to use, understand, and work with.
 My projects connect **human–technology interaction**, **creative learning**, and **practical AI workflows**.
 
+Find my public repositories under **[pengusto on GitHub](https://github.com/pengusto)**.
+Each project README is the starting point for installation, examples, current status and limitations.
+
+### Project websites & demos
+
+| Project | Website | Source |
+| :--- | :--- | :--- |
+| Push My Tabs | [Chrome & Firefox tab shortcuts](https://pengusto.github.io/push-my-tabs/) | [Repository](https://github.com/pengusto/push-my-tabs) |
+| Let Him Grill | [Codex planning skill](https://pengusto.github.io/let-him-grill/) | [Repository](https://github.com/pengusto/let-him-grill) |
+| You Got This | [Codex execution skill](https://pengusto.github.io/you-got-this/) | [Repository](https://github.com/pengusto/you-got-this) |
+| Cookbook | [Agent workflows for Codex & Claude Code](https://pengusto.github.io/cookbook/) | [Repository](https://github.com/pengusto/cookbook) |
+| Kaplum Studio | [Visual JavaScript Turtle studio](https://pengusto.github.io/kaplum-studio/) | [Repository](https://github.com/pengusto/kaplum-studio) |
+| Suika 2048 | [Browser puzzle prototype](https://pengusto.github.io/suika-2048-hosted/) | [Repository](https://github.com/pengusto/suika-2048-hosted) |
+| Paper Glide | [Unity WebGL game prototype](https://pengusto.github.io/paper-glide-hosted/) | [Repository](https://github.com/pengusto/paper-glide-hosted) |
+
 ## Everyday tools
 
 | Project | What it helps you do |
@@ -28,7 +43,7 @@ My projects connect **human–technology interaction**, **creative learning**, a
 | **[Google Classroom MCP](https://github.com/pengusto/google-classroom-mcp)** | Prepare Classroom drafts and teaching resources from a local MCP client. Beta; release checks remain open. |
 | **[Full Submission Comments](https://github.com/pengusto/tumo-full-submission-comments)** | A small browser script that reveals truncated comments in the TUMO Activity Manager. |
 | **[Lingono](https://github.com/pengusto/lingono-cs50x)** | Japanese vocabulary practice with typed answers and spaced repetition. CS50x final project. |
-| **[Lingo Challenge](https://github.com/pengusto/lingo-challenge-hosted)** | English-to-German vocabulary practice in a small Python CLI. |
+| **[Vokabelrunde](https://github.com/pengusto/vokabelrunde)** | English-to-German vocabulary practice in a small Python CLI. |
 
 ## Games & experiments
 
