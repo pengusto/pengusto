@@ -10,8 +10,7 @@ The workflow checks public data once a day at 05:23 UTC and can also be started 
 - `assets/city-mobile.svg`, `assets/city-light-mobile.svg`
 - `assets/scan.svg`, `assets/scan-light.svg`
 - `assets/scan-mobile.svg`, `assets/scan-light-mobile.svg`
-- `assets/projects.svg`, `assets/projects-light.svg`
-- `assets/projects-mobile.svg`, `assets/projects-light-mobile.svg`
+- `assets/project-{name}.svg`, `assets/project-{name}-light.svg` for each of the four selected projects
 - `github-data.json`
 
 The update script itself never commits or pushes. The GitHub Actions workflow handles the publishing step. Bot commits use `github-actions[bot]` rather than a personal name. There is no push trigger or force-push step.
@@ -60,8 +59,17 @@ The README uses GitHub-supported picture/source theme queries and width queries 
 
 ## Landmarks and contribution evidence — 24 October 2026
 
-The repository cards are original SVGs inspired by the Landmarks visual reference, not a copied GitSkins asset. The ring shows the leading language as a proportion of GitHub language bytes, not completion or test coverage. The four repositories are an explicit public-only allowlist in scripts/profile_projects.py. Desktop uses a 2×2 layout; the narrow composition stacks four cards. Project-only data changes do not rewrite unchanged calendar or scan images, and calendar-only changes do not rewrite unchanged project cards. All outputs are validated and staged before replacement.
+The repository cards are original SVGs inspired by the Landmarks visual reference, not a copied GitSkins asset. The four repositories are an explicit public-only allowlist in scripts/profile_projects.py. Each card is a separate linked image, naturally wrapping into one column on narrow screens. Project-only data changes do not rewrite unchanged calendar or scan images, and calendar-only changes do not rewrite unchanged project cards. All outputs are validated and staged before replacement.
 
 The city footer identifies @pengusto and the actual calendar date range in both sizes and themes. Inline SVG link labels use GitHub-retained align="absmiddle" so they sit on the same line as ordinary text. Separate inline middle-dot separators were removed; native list bullets remain intentional.
 
-A search for `is:merged author:pengusto` is not sufficient evidence of every accepted contribution. Wallos #1260 and #1263 are closed/unmerged individually, but the upstream maintainer explicitly confirmed both were incorporated into merged batch #1267. docs/merged-contributions.json retains the individual status, confirmation links and the merged batch commit separately. The README therefore calls this section Upstream contributions and does not incorrectly label the individual Wallos PRs as merged. Future contribution refreshes must check maintainer-confirmed batch or cherry-pick integration alongside direct merge state; do not count a closed PR as accepted without such evidence.
+A search for `is:merged author:pengusto` is not sufficient evidence of every accepted contribution. Wallos #1260 and #1263 are closed/unmerged individually, but the upstream maintainer explicitly confirmed both were incorporated into merged batch #1267. docs/merged-contributions.json retains the individual status, confirmation links and the merged batch commit separately. The README therefore calls this section Upstream and does not incorrectly label the individual Wallos PRs as merged. Future contribution refreshes must check maintainer-confirmed batch or cherry-pick integration alongside direct merge state; do not count a closed PR as accepted without such evidence.
+
+
+## Compact, clickable cards
+
+Each landmark now has its own 420px SVG in dark and light palettes, wrapped in a real README repository link. GitHub applies its native image max-width; inline cards wrap into one column on narrow screens without custom CSS. Do not put separate repository links inside a combined SVG image: those regions cannot be independently clicked when the SVG is embedded as an image.
+
+The updater generates eight project card files, eight city/scan files and the JSON manifest. Only the changed repository card pair is rewritten when its metadata changes. Language percentages and the ambiguous “code share” label were removed; cards show the leading language, public stars and push date. No project-completion percentage is implied. Static workbench/upstream cards retain scope labels and the README keeps attribution and merge evidence in expandable sections.
+
+Regenerate static cards with `python scripts/render_static_cards.py`. Further workbench projects are collapsed by default so the profile stays short; every card remains a separate repository link when expanded.

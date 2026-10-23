@@ -48,7 +48,7 @@ class UpdateTests(unittest.TestCase):
             root=Path(temp); update(root,source=lambda _:fixture(),now=NOW)
             days,profile,avatar=fixture();days[-1]['count']=33;days[-1]['level']=4
             changed=update(root,source=lambda _:(days,profile,avatar),now=NOW+timedelta(hours=1))
-            self.assertEqual(set(changed),{name for name in FILES if '/projects' not in name})
+            self.assertEqual(set(changed),{name for name in FILES if '/project-' not in name})
             manifest=json.loads((root/'github-data.json').read_text())
             self.assertEqual(manifest['total'],sum(d['count'] for d in days))
             for name in ['scan.svg','scan-mobile.svg','scan-light.svg','scan-light-mobile.svg']:
@@ -69,7 +69,7 @@ class UpdateTests(unittest.TestCase):
     def test_light_palette_preserves_data_and_readable_text(self):
         with tempfile.TemporaryDirectory() as temp:
             root=Path(temp); update(root,source=lambda _:fixture(),now=NOW)
-            for dark,light in [('city.svg','city-light.svg'),('city-mobile.svg','city-light-mobile.svg'),('scan.svg','scan-light.svg'),('scan-mobile.svg','scan-light-mobile.svg'),('projects.svg','projects-light.svg'),('projects-mobile.svg','projects-light-mobile.svg')]:
+            for dark,light in [('city.svg','city-light.svg'),('city-mobile.svg','city-light-mobile.svg'),('scan.svg','scan-light.svg'),('scan-mobile.svg','scan-light-mobile.svg'),('project-kaplum-studio.svg','project-kaplum-studio-light.svg')]:
                 import xml.etree.ElementTree as ET
                 a=ET.parse(root/'assets'/dark).getroot()
                 b=ET.parse(root/'assets'/light).getroot()
@@ -93,11 +93,12 @@ class UpdateTests(unittest.TestCase):
             days,profile,avatar=fixture();profile['projects'][0]['stars']=17
             profile['projects'][0]['languages']={'JavaScript':55,'HTML':45}
             changed=update(root,source=lambda _:(days,profile,avatar),now=NOW)
-            self.assertEqual(set(changed),{name for name in FILES if '/projects' in name or name=='github-data.json'})
-            for name in ('projects.svg','projects-mobile.svg','projects-light.svg','projects-light-mobile.svg'):
+            self.assertEqual(set(changed),{'assets/project-kaplum-studio.svg','assets/project-kaplum-studio-light.svg','github-data.json'})
+            for name in ('project-kaplum-studio.svg','project-kaplum-studio-light.svg'):
                 svg=(root/'assets'/name).read_text()
-                self.assertIn('55%',svg);self.assertIn('★ 17',svg)
-                self.assertIn('code share',svg)
+                self.assertIn('JavaScript',svg);self.assertIn('★ 17',svg)
+                self.assertNotIn('code share',svg)
+                self.assertNotIn('%',svg)
                 self.assertNotIn('completion', ''.join(__import__('re').findall(r'<text[^>]*>(.*?)</text>',svg)))
             self.assertEqual(update(root,source=lambda _:(days,profile,avatar),now=NOW),[])
 
@@ -116,6 +117,21 @@ class UpdateTests(unittest.TestCase):
                 self.assertIn('@pengusto',(root/'assets'/name).read_text())
         workflow=(Path(__file__).parents[1]/'.github/workflows/refresh-profile.yml').read_text()
         for name in FILES:self.assertIn(name,workflow)
+
+    def test_each_project_card_has_its_own_repository_link(self):
+        from html.parser import HTMLParser
+        class Cards(HTMLParser):
+            def __init__(self): super().__init__(); self.href=None; self.cards={}
+            def handle_starttag(self,tag,attrs):
+                a=dict(attrs)
+                if tag=='a': self.href=a.get('href')
+                if tag=='img' and a.get('src','').startswith('assets/project-'):
+                    self.cards[a['src'].split('?')[0]]=self.href
+            def handle_endtag(self,tag):
+                if tag=='a':self.href=None
+        parser=Cards();parser.feed((Path(__file__).parents[1]/'README.md').read_text())
+        from profile_projects import PROJECT_NAMES
+        self.assertEqual(parser.cards,{'assets/project-'+n+'-light.svg':'https://github.com/pengusto/'+n for n in PROJECT_NAMES})
 
     def test_batched_upstream_acceptance_keeps_original_pr_status(self):
         data=json.loads((Path(__file__).parents[1]/'docs/merged-contributions.json').read_text())

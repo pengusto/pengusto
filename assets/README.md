@@ -25,4 +25,6 @@ The banner is an AI-generated illustration. It is not a screenshot or a project 
 
 Paired light/dark desktop and optional mobile banner artwork was prepared with the built-in Imagegen tool from the existing pengusto illustration. Static SVG compositions and linked labels use explicit light/dark palettes. City, scan and Landmarks widgets in both themes and sizes are generated together by the portable updater. Mobile compositions are used where they improve text readability; they are not required for every project banner. Source artwork and the original banner are retained.
 
-The 24 October 2026 refinement uses a cooler iris-indigo palette in the SVG fills and strokes. No GitSkins graphic was copied. Project rings are real language-byte shares, and metadata refreshes daily from a strict public-only selection. The city footer includes @pengusto.
+The 24 October 2026 refinement uses a cooler iris-indigo palette in the SVG fills and strokes. No GitSkins graphic was copied. Project cards show the leading language, stars and push date, with metadata refreshing daily from a strict public-only selection. The city footer includes @pengusto.
+
+Compact project, upstream and workbench cards are original SVGs. Each has its own linked README image; public project metadata is regenerated daily. Workbench labels preserve prototype, beta and attribution boundaries in the linked repository and expandable README notices.

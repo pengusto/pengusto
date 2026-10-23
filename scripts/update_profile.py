@@ -14,9 +14,9 @@ from urllib.request import Request, urlopen
 from urllib.parse import urlparse
 import xml.etree.ElementTree as ET
 from profile_widgets import render
-from profile_projects import PROJECT_NAMES, validate_project
+from profile_projects import PROJECT_NAMES, PROJECT_FILES, validate_project
 
-FILES=('assets/city.svg','assets/city-light.svg','assets/city-mobile.svg','assets/city-light-mobile.svg','assets/scan.svg','assets/scan-mobile.svg','assets/scan-light.svg','assets/scan-light-mobile.svg','assets/projects.svg','assets/projects-mobile.svg','assets/projects-light.svg','assets/projects-light-mobile.svg','github-data.json')
+FILES=('assets/city.svg','assets/city-light.svg','assets/city-mobile.svg','assets/city-light-mobile.svg','assets/scan.svg','assets/scan-mobile.svg','assets/scan-light.svg','assets/scan-light-mobile.svg',*PROJECT_FILES,'github-data.json')
 OWNER='pengusto'
 
 class Calendar(HTMLParser):
