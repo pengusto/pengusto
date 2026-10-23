@@ -17,9 +17,10 @@ def render(out, days, profile, avatar, fetched_at, input_hash):
  (out/'github-data.json').write_text(json.dumps(data,indent=2)+'\n')
  # Independent isometric calendar: one cuboid per real contribution-calendar day.
  inner='<defs><radialGradient id="glow"><stop stop-color="#9d61e8" stop-opacity=".28"/><stop offset="1" stop-color="#131119" stop-opacity="0"/></radialGradient></defs><ellipse cx="480" cy="230" rx="350" ry="170" fill="url(#glow)"/>'
- inner+=t(28,40,'CONTRIBUTION CITY / PENGUSTO',15,'#c4a1ff',700)
- inner+=t(28,80,f'{total:,}',34,'#f4edff',700)+t(28,105,'contributions',15)
- inner+=t(28,133,f'{active} active days',14)+t(28,155,f'Busiest day: {peak}',14)
+ display_total=f'{total/1000:.1f}K' if total>=1000 else str(total)
+ inner+=t(28,42,'CONTRIBUTION CITY',12,'#c4a1ff',700).replace('Arial,sans-serif','monospace').replace('font-size=', 'letter-spacing="2" font-size=')
+ inner+=t(28,79,display_total,36,'#f4edff',700)+t(28,101,'contributions in the last year',13,'#c4a1ff',700)
+ inner+=t(28,132,f'{active} active days',12,'#c4a1ff',700)+t(28,151,f'Busiest day: {peak}',12,'#c4a1ff',700)
  first=date.fromisoformat(days[0]['date']);buildings=[]
  for day in days:
   delta=(date.fromisoformat(day['date'])-first).days;week,weekday=divmod(delta,7)
@@ -36,18 +37,15 @@ def render(out, days, profile, avatar, fetched_at, input_hash):
   city_scene+=f'<g><title>{day["date"]}: {day["count"]} contributions</title><polygon points="{right}" fill="{rights[level]}"/><polygon points="{left}" fill="{lefts[level]}"/><polygon points="{top}" fill="{tops[level]}" stroke="#c4a1ff" stroke-opacity=".12" stroke-width=".5"/></g>'
  inner+=city_scene
  inner+=f'<rect x="170" y="190" width="605" height="1" fill="#d3b0ff" opacity=".16"><animate attributeName="y" values="155;355;155" dur="9s" repeatCount="indefinite"/></rect>'
- inner+=t(28,375,'@pengusto',15,'#bd93f9',700)
- inner+=t(28,399,days[0]['date']+' → '+days[-1]['date'],12,'#a897bd')
- inner+=t(832,399,'ONE BUILDING PER DAY / PUBLIC GITHUB DATA',10,'#a897bd',anchor='end')
+ inner+=t(28,391,'@pengusto',12,'#bd93f9',700)
  (a/'city.svg').write_text(frame(860,420,inner,'Pengusto contribution city: '+str(total)+' actual contributions across '+str(len(days))+' calendar days. Purple isometric view.'))
  # Mobile city has larger summary labels and its own taller composition.
  mobile=re.search(r'(<defs>.*?</defs>)',inner).group(1)
- mobile+=t(28,48,'CONTRIBUTION CITY / PENGUSTO',24,'#c4a1ff',700)
- mobile+=t(28,112,f'{total:,} contributions',46,'#f4edff',700)
- mobile+=t(28,166,f'{active} active days · busiest day: {peak}',30)
+ mobile+=t(28,47,'CONTRIBUTION CITY',20,'#c4a1ff',700).replace('Arial,sans-serif','monospace').replace('font-size=', 'letter-spacing="3" font-size=')
+ mobile+=t(28,105,display_total,54,'#f4edff',700)+t(28,142,'contributions in the last year',27,'#c4a1ff',700)
+ mobile+=t(28,189,f'{active} active days',24,'#c4a1ff',700)+t(28,222,f'Busiest day: {peak}',24,'#c4a1ff',700)
  mobile+=f'<g transform="translate(-45 190) scale(1.1)">{city_scene}</g>'
- mobile+=t(28,610,'@pengusto',29,'#bd93f9',700)
- mobile+=t(28,650,days[0]['date']+' → '+days[-1]['date'],23,'#a897bd')
+ mobile+=t(28,643,'@pengusto',23,'#bd93f9',700)
  (a/'city-mobile.svg').write_text(frame(860,680,mobile,'Pengusto contribution city — mobile. '+str(total)+' actual contributions.'))
  # ASCII portrait derived from the unmodified public avatar embedded in the earlier draft.
  im=Image.open(io.BytesIO(avatar)).convert('L').resize((44,27)).filter(ImageFilter.FIND_EDGES)

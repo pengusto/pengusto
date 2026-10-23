@@ -133,6 +133,21 @@ class UpdateTests(unittest.TestCase):
         from profile_projects import PROJECT_NAMES
         self.assertEqual(parser.cards,{'assets/project-'+n+'-light.svg':'https://github.com/pengusto/'+n for n in PROJECT_NAMES})
 
+    def test_city_uses_last_year_labels_without_visible_dates(self):
+        import xml.etree.ElementTree as ET
+        with tempfile.TemporaryDirectory() as temp:
+            root=Path(temp);days,profile,avatar=fixture();days[-1]['count']=2930-sum(d['count'] for d in days[:-1])
+            update(root,source=lambda _:(days,profile,avatar),now=NOW)
+            for name in ('city.svg','city-mobile.svg','city-light.svg','city-light-mobile.svg'):
+                svg=ET.parse(root/'assets'/name).getroot()
+                labels=[n.text for n in svg.iter('{http://www.w3.org/2000/svg}text')]
+                self.assertIn('CONTRIBUTION CITY',labels)
+                self.assertIn('2.9K',labels)
+                self.assertIn('contributions in the last year',labels)
+                self.assertIn('@pengusto',labels)
+                self.assertFalse(any(__import__('re').search(r'\d{4}-\d{2}-\d{2}',v or '') for v in labels))
+                self.assertIn('2930',svg.attrib['aria-label'])
+
     def test_batched_upstream_acceptance_keeps_original_pr_status(self):
         data=json.loads((Path(__file__).parents[1]/'docs/merged-contributions.json').read_text())
         wallos=[x for x in data['items'] if x['repository']=='ellite/Wallos']

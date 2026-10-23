@@ -73,3 +73,5 @@ Each landmark now has its own 420px SVG in dark and light palettes, wrapped in a
 The updater generates eight project card files, eight city/scan files and the JSON manifest. Only the changed repository card pair is rewritten when its metadata changes. Language percentages and the ambiguous “code share” label were removed; cards show the leading language, public stars and push date. No project-completion percentage is implied. Static workbench/upstream cards retain scope labels and the README keeps attribution and merge evidence in expandable sections.
 
 Regenerate static cards with `python scripts/render_static_cards.py`. Further workbench projects are collapsed by default so the profile stays short; every card remains a separate repository link when expanded.
+
+City labels follow the compact reference hierarchy: CONTRIBUTION CITY, abbreviated total, “contributions in the last year”, active days and busiest day. Visible date ranges are omitted; full dates and exact counts remain in the public JSON snapshot and per-day SVG titles. The @pengusto footer is retained in all theme/viewport variants.

@@ -24,10 +24,10 @@
 ## The city I’m building
 
 <picture>
-<source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/city-mobile.svg?v=iris-20261024">
-<source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/city-light-mobile.svg?v=iris-20261024">
-<source media="(prefers-color-scheme: dark)" srcset="assets/city.svg?v=iris-20261024">
-<img src="assets/city-light.svg?v=iris-20261024" alt="Pengusto contribution city — actual GitHub calendar data in matching dark and light palettes." width="860">
+<source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/city-mobile.svg?v=lastyear-20261024">
+<source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/city-light-mobile.svg?v=lastyear-20261024">
+<source media="(prefers-color-scheme: dark)" srcset="assets/city.svg?v=lastyear-20261024">
+<img src="assets/city-light.svg?v=lastyear-20261024" alt="Pengusto contribution city — actual GitHub calendar data in matching dark and light palettes." width="860">
 </picture>
 
 ## Selected work
