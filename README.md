@@ -8,7 +8,7 @@ My projects connect **human–technology interaction**, **creative learning**, a
 Find my public repositories under **[pengusto on GitHub](https://github.com/pengusto)**.
 Each project README is the starting point for installation, examples, current status and limitations.
 
-### Project websites & demos
+## Project websites & demos
 
 | Project | Website | Source |
 | :--- | :--- | :--- |
