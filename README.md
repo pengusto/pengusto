@@ -1,90 +1,113 @@
+<div align="center">
 <picture>
-<source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/profile-banner-purple-mobile.png">
-<source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/profile-banner-purple-light-mobile.png">
-<source media="(prefers-color-scheme: dark)" srcset="assets/profile-banner-purple.png">
-<img src="assets/profile-banner-purple-light.png" alt="Pengusto — Useful tools. Thoughtful interactions." width="860">
-</picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&mode=light" />
+    <img src="https://www.gitskins.com/api/section/hero?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&mode=dark" width="100%" alt="Pengusto — profile" />
+  </picture>
 
-<picture>
-<source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/scan-mobile.svg?v=iris-20261024">
-<source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/scan-light-mobile.svg?v=iris-20261024">
-<source media="(prefers-color-scheme: dark)" srcset="assets/scan.svg?v=iris-20261024">
-<img src="assets/scan-light.svg?v=iris-20261024" alt="Pengusto — animated purple system scan using periodically refreshed public GitHub data." width="860">
-</picture>
+<h1>Pengusto</h1>
+<p><strong>Frontend or full-stack engineer</strong></p>
+<p>Building the layer between human intent and useful software: AI agents, local-first tools, and developer workflows. Sometimes shipping tomorrow by accident.</p>
+<p><sub>Based in Germany · Building at Kikaio</sub></p>
 
-<picture>
-<source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/intro-mobile.svg?v=iris-20261024">
-<source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/intro-light-mobile.svg?v=iris-20261024">
-<source media="(prefers-color-scheme: dark)" srcset="assets/intro.svg?v=iris-20261024">
-<img src="assets/intro-light.svg?v=iris-20261024" alt="Pengusto. Useful tools. Thoughtful interactions. Building the layer between human intent and useful software: AI agents, local-first tools, and developer workflows. Sometimes shipping tomorrow by accident." width="860">
-</picture>
+<table width="100%">
+<tr>
+<td width="25%" align="center"><strong>2</strong><br /><sub>Followers</sub></td>
+<td width="25%" align="center"><strong>15</strong><br /><sub>Repositories</sub></td>
+<td width="25%" align="center"><strong>5</strong><br /><sub>Stars</sub></td>
+<td width="25%" align="center"><strong>2,933</strong><br /><sub>Contributions</sub></td>
+</tr>
+</table>
 
-<p align="center"><a href="https://github.com/pengusto"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-01.svg?v=iris-20261024"><img src="assets/link-01-light.svg?v=iris-20261024" alt="GitHub @pengusto · Based in Germany" width="289" height="25" align="absmiddle"></picture></a></p>
+<p><a href="https://github.com/pengusto">GitHub</a> &nbsp;·&nbsp; <a href="https://kikaio.de">Website</a></p>
+</div>
 
-## The city I’m building
+<h2>Building in public</h2>
 
-<picture>
-<source media="(prefers-color-scheme: dark) and (max-width: 600px)" srcset="assets/city-mobile.svg?v=lastyear-20261024">
-<source media="(prefers-color-scheme: light) and (max-width: 600px)" srcset="assets/city-light-mobile.svg?v=lastyear-20261024">
-<source media="(prefers-color-scheme: dark)" srcset="assets/city.svg?v=lastyear-20261024">
-<img src="assets/city-light.svg?v=lastyear-20261024" alt="Pengusto contribution city — actual GitHub calendar data in matching dark and light palettes." width="860">
-</picture>
+<table width="100%">
+<tr>
+<td width="62%" valign="top">
+<p>Building the layer between human intent and useful software: AI agents, local-first tools, and developer workflows. Sometimes shipping tomorrow by accident.</p>
+<p><strong>Focus:</strong> C# · HTML · JavaScript</p>
+<p><sub>Designed to make the work, momentum, and next conversation easy to find.</sub></p>
+</td>
+<td width="38%" valign="top">
+<img src="https://www.gitskins.com/api/section/portrait?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&color=1&v=showcase-portrait-1" width="100%" alt="Pengusto animated colored ASCII portrait" />
+</td>
+</tr>
+</table>
 
-## Selected work
+<h2>What I’m shipping</h2>
 
-[![Kaplum Studio — learn JavaScript by drawing. Open the real lesson.](assets/kaplum-demo.gif)](https://pengusto.github.io/kaplum-studio/#course/square)
-
-**Kaplum Studio** · Learn JavaScript by drawing. [Try the lesson ↗](https://pengusto.github.io/kaplum-studio/#course/square)
-
-### Landmarks
-
-<p>
-<a href="https://github.com/pengusto/kaplum-studio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-kaplum-studio.svg?v=compact-20261024"><img src="assets/project-kaplum-studio-light.svg?v=compact-20261024" alt="Kaplum Studio — visual JavaScript" width="420" align="top"></picture></a>
-<a href="https://github.com/pengusto/push-my-tabs"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-push-my-tabs.svg?v=compact-20261024"><img src="assets/project-push-my-tabs-light.svg?v=compact-20261024" alt="Push My Tabs — browser shortcuts" width="420" align="top"></picture></a>
-<a href="https://github.com/pengusto/let-him-grill"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-let-him-grill.svg?v=compact-20261024"><img src="assets/project-let-him-grill-light.svg?v=compact-20261024" alt="Let Him Grill — planning skill" width="420" align="top"></picture></a>
-<a href="https://github.com/pengusto/penguin-patches"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-penguin-patches.svg?v=compact-20261024"><img src="assets/project-penguin-patches-light.svg?v=compact-20261024" alt="Penguin Patches — Android fixes" width="420" align="top"></picture></a>
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/highlights?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&items=C%23%3A%3A15%20public%20repositories%7Ckaplum-studio%3A%3ALearn%20JavaScript%20by%20drawing%3A%20a%20visual%20Turtle%20s%7CImpact%3A%3A5%20stars%20%C2%B7%20161%20active%20days" width="100%" alt="Highlights" />
 </p>
 
-## Upstream
+<h2>Featured work</h2>
 
-<p>
-<a href="https://github.com/lidge-jun/opencodex/pull/6388"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/upstream-opencodex.svg?v=compact-20261024"><img src="assets/upstream-opencodex-light.svg?v=compact-20261024" alt="OpenCodex — merged: readable native-login layout" width="420" align="top"></picture></a>
-<a href="https://github.com/ellite/Wallos/pull/1267"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/upstream-wallos.svg?v=compact-20261024"><img src="assets/upstream-wallos-light.svg?v=compact-20261024" alt="Wallos — two fixes accepted through merged batch #1267" width="420" align="top"></picture></a>
+<table width="100%">
+<tr>
+<td width="58%" valign="top">
+<img src="https://www.gitskins.com/api/section/projects?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4" width="100%" alt="Featured projects" />
+</td>
+<td width="42%" valign="top">
+<h3><a href="https://github.com/pengusto/kaplum-studio"><strong>kaplum-studio</strong></a></h3>
+<p>Learn JavaScript by drawing: a visual Turtle studio with editable examples, guided experiments, code stepping and offline project export.</p>
+<p><sub>JavaScript · ⭐ 0 stars · 0 forks</sub></p>
+<p><a href="https://github.com/pengusto/kaplum-studio">View project →</a></p>
+</td>
+</tr>
+</table>
+
+<h2>Selected work</h2>
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top">
+<h3><a href="https://github.com/pengusto/kaplum-studio"><strong>kaplum-studio</strong></a></h3>
+<p>Learn JavaScript by drawing: a visual Turtle studio with editable examples, guided experiments, code stepping and offline project export.</p>
+<p><sub>JavaScript · ⭐ 0</sub></p>
+</td>
+<td width="33%" valign="top">
+<h3><a href="https://github.com/pengusto/push-my-tabs"><strong>push-my-tabs</strong></a></h3>
+<p>Layout-aware keyboard shortcuts and quick tab actions for Chrome and Firefox. Switch and move horizontal or vertical tabs.</p>
+<p><sub>JavaScript · ⭐ 0</sub></p>
+</td>
+<td width="33%" valign="top">
+<h3><a href="https://github.com/pengusto/let-him-grill"><strong>let-him-grill</strong></a></h3>
+<p>A Codex planning skill: resolve reversible decisions, stop at human gates, and resume the decision path.</p>
+<p><sub>Python · ⭐ 1</sub></p>
+</td>
+</tr>
+</table>
+
+<h2>Signal</h2>
+
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/stats?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4" width="100%" alt="5 stars across 15 repositories" />
 </p>
 
-<details>
-<summary>Merge evidence</summary>
+<h2>Stack</h2>
 
-- **OpenCodex:** [#6388](https://github.com/lidge-jun/opencodex/pull/6388), merged 1 October 2026.
-- **Wallos:** [#1260](https://github.com/ellite/Wallos/pull/1260) and [#1263](https://github.com/ellite/Wallos/pull/1263), included in merged batch [#1267](https://github.com/ellite/Wallos/pull/1267) on 17 October 2026. Original PRs closed individually; maintainer confirmations: [list fix](https://github.com/ellite/Wallos/pull/1260#issuecomment-6234315805), [theme fix](https://github.com/ellite/Wallos/pull/1263#issuecomment-6234316162).
-
-</details>
-
-<details>
-<summary><strong>The workbench · 10 more projects</strong></summary>
-
-<p>
-<a href="https://github.com/pengusto/cookbook"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/workbench-cookbook.svg?v=compact-20261024"><img src="assets/workbench-cookbook-light.svg?v=compact-20261024" alt="Cookbook — Agent workflows" width="280" align="top"></picture></a>
-<a href="https://github.com/pengusto/you-got-this"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/workbench-you-got-this.svg?v=compact-20261024"><img src="assets/workbench-you-got-this-light.svg?v=compact-20261024" alt="You Got This — From goal to handoff" width="280" align="top"></picture></a>
-<a href="https://github.com/pengusto/google-classroom-mcp"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/workbench-google-classroom-mcp.svg?v=compact-20261024"><img src="assets/workbench-google-classroom-mcp-light.svg?v=compact-20261024" alt="Classroom MCP — Teaching tools for agents" width="280" align="top"></picture></a>
-<a href="https://github.com/pengusto/tumo-full-submission-comments"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/workbench-tumo-full-submission-comments.svg?v=compact-20261024"><img src="assets/workbench-tumo-full-submission-comments-light.svg?v=compact-20261024" alt="Full Comments — Reveal hidden TUMO feedback" width="280" align="top"></picture></a>
-<a href="https://github.com/pengusto/lingono-cs50x"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/workbench-lingono-cs50x.svg?v=compact-20261024"><img src="assets/workbench-lingono-cs50x-light.svg?v=compact-20261024" alt="Lingono — Practice Japanese vocabulary" width="280" align="top"></picture></a>
-<a href="https://github.com/pengusto/vokabelrunde"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/workbench-vokabelrunde.svg?v=compact-20261024"><img src="assets/workbench-vokabelrunde-light.svg?v=compact-20261024" alt="Vokabelrunde — English → German practice" width="280" align="top"></picture></a>
-<a href="https://github.com/pengusto/suika-2048-hosted"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/workbench-suika-2048-hosted.svg?v=compact-20261024"><img src="assets/workbench-suika-2048-hosted-light.svg?v=compact-20261024" alt="Suika 2048 — A small fruit puzzle" width="280" align="top"></picture></a>
-<a href="https://github.com/pengusto/paper-glide-hosted"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/workbench-paper-glide-hosted.svg?v=compact-20261024"><img src="assets/workbench-paper-glide-hosted-light.svg?v=compact-20261024" alt="Paper Glide — Fly through a pixel city" width="280" align="top"></picture></a>
-<a href="https://github.com/pengusto/UnityEditorAI"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/workbench-UnityEditorAI.svg?v=compact-20261024"><img src="assets/workbench-UnityEditorAI-light.svg?v=compact-20261024" alt="UnityEditorAI — Natural language in Unity" width="280" align="top"></picture></a>
-<a href="https://github.com/pengusto/spark-hedge-physics-2-community"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/workbench-spark-hedge-physics-2-community.svg?v=compact-20261024"><img src="assets/workbench-spark-hedge-physics-2-community-light.svg?v=compact-20261024" alt="Spark / Hedge Physics — Community physics playground" width="280" align="top"></picture></a>
+<p align="center">
+  <img src="https://www.gitskins.com/api/section/stack?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4" width="100%" alt="Language stack" />
 </p>
 
-</details>
+<h2>Activity</h2>
 
-[All public repositories ↗](https://github.com/pengusto?tab=repositories&amp;type=source) · [kikaio.de ↗](https://kikaio.de)
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/heatmap?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&mode=light" />
+    <img src="https://www.gitskins.com/api/section/heatmap?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&mode=dark" width="100%" alt="2933 contributions in the last year" />
+  </picture>
+</p>
 
-<details>
-<summary>About the visuals &amp; data</summary>
+<hr />
 
-Original SVG compositions inspired by the GitSkins layouts. Public calendar and project data refresh daily; timestamps show the latest successful update. Animated scan lines are decorative. Kaplum is an actual application recording. Repository pages contain demos, setup instructions and asset credits.
+<table width="100%">
+<tr>
+<td width="62%" valign="middle"><h2>Let’s build something</h2><p>Open to thoughtful collaboration, ambitious products, and useful open-source work.</p></td>
+<td width="38%" valign="middle" align="right"><a href="https://github.com/pengusto">GitHub</a><br /><a href="https://kikaio.de">Website</a></td>
+</tr>
+</table>
 
-UnityEditorAI was developed in cooperation with Capgemini Germany. Spark / Hedge Physics is an independent mirror and playground; the original framework is by LakeFeperd. Check each repository for its current scope and notices.
-
-</details>
+<p align="center"><sub>Pengusto · live profile data, designed with <a href="https://www.gitskins.com/readme-generator">GitSkins</a></sub></p>
