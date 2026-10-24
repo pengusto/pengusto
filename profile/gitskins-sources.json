@@ -4,18 +4,18 @@
     "mode": "dark",
     "url": "https://www.gitskins.com/api/section/hero?username=pengusto&theme=dracula&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=dark",
     "file": "originals/gitskins-hero-dark.svg",
-    "sha256": "1bbbe8d5977dd5cc6c12db552b5048209de330c27cb20aaa725b97752efc180a",
+    "sha256": "62cb737ed11182f5c300eb080e609412b2eebef9a4038af4a726233891e33b14",
     "viewBox": "0 0 860 240",
-    "bytes": 296636
+    "bytes": 310816
   },
   {
     "section": "hero",
     "mode": "light",
     "url": "https://www.gitskins.com/api/section/hero?username=pengusto&theme=pastel&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=light",
     "file": "originals/gitskins-hero-light.svg",
-    "sha256": "4ba34f3a76b1a53b0ec69621c66bf5206f1ec36915c477a2128a5fb12af660f9",
+    "sha256": "380f7703d80c2aabd04563d36010131c179977c420ca0e428f9bf1fb857dcbf8",
     "viewBox": "0 0 860 240",
-    "bytes": 296627
+    "bytes": 310807
   },
   {
     "section": "projects",
@@ -94,7 +94,7 @@
     "mode": "dark",
     "url": "https://www.gitskins.com/api/section/stack?username=pengusto&theme=dracula&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=dark",
     "file": "originals/gitskins-stack-dark.svg",
-    "sha256": "d5199eb176d6cc4461ce81a2684844f6708ce1d989d8906937681c06cd840055",
+    "sha256": "64c5d69cd6877e0c9a2afa8ced6123cdcf4e9201b050e5c4c81d97fbf9f2b984",
     "viewBox": "0 0 860 280",
     "bytes": 10405
   },
@@ -103,7 +103,7 @@
     "mode": "light",
     "url": "https://www.gitskins.com/api/section/stack?username=pengusto&theme=pastel&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=light",
     "file": "originals/gitskins-stack-light.svg",
-    "sha256": "284e4543220dac61157ef6ecbe13af94affc3db2dc5e945aaf2c6f766c057ee6",
+    "sha256": "ad53d9c4ae586e02a45553b1072277965c2629a1ac98f7eacdd1004d56c35a04",
     "viewBox": "0 0 860 280",
     "bytes": 10396
   }
