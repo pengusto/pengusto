@@ -1,4 +1,4 @@
-name: Refresh purple profile widgets
+name: Refresh profile widgets and stats
 
 on:
   schedule:
@@ -16,7 +16,7 @@ jobs:
   refresh:
     if: github.repository == 'pengusto/pengusto'
     runs-on: ubuntu-latest
-    timeout-minutes: 8
+    timeout-minutes: 15
     permissions:
       contents: write
     steps:
@@ -36,16 +36,52 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python scripts/update_profile.py --output .
+      - name: Generate stats card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=pengusto&theme=tokyonight&hide_border=true&disable_animations=true&show_icons=true&hide_rank=true
+          path: assets/readme-stats/stats.svg
+          token: ${{ github.token }}
+          core_version: '2.2.1'
+          fail_on_error: 'true'
+      - name: Generate stats-light card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: stats
+          options: username=pengusto&theme=default&hide_border=true&disable_animations=true&show_icons=true&hide_rank=true
+          path: assets/readme-stats/stats-light.svg
+          token: ${{ github.token }}
+          core_version: '2.2.1'
+          fail_on_error: 'true'
+      - name: Generate top-langs card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=pengusto&theme=tokyonight&hide_border=true&disable_animations=true&layout=compact&langs_count=8
+          path: assets/readme-stats/top-langs.svg
+          token: ${{ github.token }}
+          core_version: '2.2.1'
+          fail_on_error: 'true'
+      - name: Generate top-langs-light card
+        uses: stats-organization/github-readme-stats-action@2c498845f71017821efaad14293ebc736156ef21 # v2.1.0
+        with:
+          card: top-langs
+          options: username=pengusto&theme=default&hide_border=true&disable_animations=true&layout=compact&langs_count=8
+          path: assets/readme-stats/top-langs-light.svg
+          token: ${{ github.token }}
+          core_version: '2.2.1'
+          fail_on_error: 'true'
       - name: Commit changed generated files only
         env:
           TARGET_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          git add -- assets/city.svg assets/city-light.svg assets/city-mobile.svg assets/city-light-mobile.svg assets/scan.svg assets/scan-mobile.svg assets/scan-light.svg assets/scan-light-mobile.svg assets/project-kaplum-studio.svg assets/project-kaplum-studio-light.svg assets/project-push-my-tabs.svg assets/project-push-my-tabs-light.svg assets/project-let-him-grill.svg assets/project-let-him-grill-light.svg assets/project-penguin-patches.svg assets/project-penguin-patches-light.svg github-data.json
+          git add -- assets/city.svg assets/city-light.svg assets/city-mobile.svg assets/city-light-mobile.svg assets/scan.svg assets/scan-mobile.svg assets/scan-light.svg assets/scan-light-mobile.svg assets/project-kaplum-studio.svg assets/project-kaplum-studio-light.svg assets/project-push-my-tabs.svg assets/project-push-my-tabs-light.svg assets/project-let-him-grill.svg assets/project-let-him-grill-light.svg assets/project-penguin-patches.svg assets/project-penguin-patches-light.svg github-data.json assets/readme-stats/stats.svg assets/readme-stats/stats-light.svg assets/readme-stats/top-langs.svg assets/readme-stats/top-langs-light.svg
           if git diff --cached --quiet; then
             echo 'Profile data unchanged; no commit needed.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'chore: refresh purple profile widgets'
+          git commit -m 'chore: refresh profile widgets and stats'
           git push origin "HEAD:$TARGET_BRANCH"

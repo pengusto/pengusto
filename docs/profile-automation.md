@@ -75,3 +75,18 @@ The updater generates eight project card files, eight city/scan files and the JS
 Regenerate static cards with `python scripts/render_static_cards.py`. Further workbench projects are collapsed by default so the profile stays short; every card remains a separate repository link when expanded.
 
 City labels follow the compact reference hierarchy: CONTRIBUTION CITY, abbreviated total, “contributions in the last year”, active days and busiest day. Visible date ranges are omitted; full dates and exact counts remain in the public JSON snapshot and per-day SVG titles. The @pengusto footer is retained in all theme/viewport variants.
+
+
+## Worldfolio and README Stats — 24 October 2026
+
+Worldfolio is hosted separately at <https://pengusto.github.io/worldfolio/> from the root of `pengusto/worldfolio` on `main`. The profile links an actual runtime recording to that site. The GIF, reduced-motion poster and saved colourful GitSkins terminal SVGs are static assets; the workflow does not regenerate them. The original purple compositions and project/contribution evidence remain intact.
+
+The original [anuraghazra/github-readme-stats](https://github.com/anuraghazra/github-readme-stats) now recommends its maintained successor and [Stats Action](https://github.com/stats-organization/github-readme-stats-action). The same daily/manual workflow now uses that Action, pinned to v2.1.0 commit `2c498845f71017821efaad14293ebc736156ef21`, with `@stats-organization/github-readme-stats-core` fixed to `2.2.1`. This is the documented successor renderer, rather than an unchanged copy of the retired original.
+
+Four local files are generated: `assets/readme-stats/stats.svg`, `stats-light.svg`, `top-langs.svg`, and `top-langs-light.svg`. Dark/light sources match GitHub's theme selection. Public data uses the built-in repository token; no personal token, private-repository access or visitor-time rendering server is required. Top languages represents the public repository language breakdown, not a measure of proficiency. Core dependencies are installed on the runner by the Action, never in this repository.
+
+`fail_on_error: true` stops a failed API lookup before the commit step, retaining the last successful cards instead of publishing an error image. All four cards and the existing widgets publish together through the existing concurrency group. The 15-minute timeout includes installing the third-party renderer. There is still no push trigger and no force push; a conflicting external edit can fail the run safely, and the workflow can then be retried.
+
+The coloured terminal option is a saved export, with its GitSkins branding retained. Its numbers are a snapshot from 24 October 2026; only the separate native widgets and README Stats cards refresh automatically. Source/hash records are in `docs/showcase-assets.json`.
+
+Lesson retained: a local preview/draft must not replace a newer live profile wholesale. Fetch the current profile first, then add the requested section while preserving its existing content and automation.
