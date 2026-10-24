@@ -1,0 +1,16 @@
+{
+  "repository": "https://github.com/pengusto/worldfolio",
+  "revision": "e07754054d5274b81c95d080098f1a419aee21a3",
+  "assets": [
+    {
+      "file": "assets/worldfolio-banner-dark-v1.png",
+      "source": "https://raw.githubusercontent.com/pengusto/worldfolio/e07754054d5274b81c95d080098f1a419aee21a3/docs/assets/worldfolio-banner-dark-v1.png",
+      "sha256": "1093cc4f35cf01938b1e9dc8632cbf58246b973a74475b58d0f31343566f9b22"
+    },
+    {
+      "file": "assets/worldfolio-banner-light-v1.png",
+      "source": "https://raw.githubusercontent.com/pengusto/worldfolio/e07754054d5274b81c95d080098f1a419aee21a3/docs/assets/worldfolio-banner-light-v1.png",
+      "sha256": "8d6f24dd088d58d24fe6d1344a5f360bc2716185efbf3e362b62c98c5a5d4a05"
+    }
+  ]
+}

@@ -22,6 +22,10 @@
 
 <a href="https://pengusto.github.io/kaplum-studio/#course/square"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/link-03.svg"><img src="assets/link-03-light.svg" alt="Try the real lesson →" width="159" height="25" align="absmiddle"></picture></a>
 
+<p align="center"><a href="https://pengusto.github.io/worldfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/worldfolio-banner-dark-v1.png"><img src="assets/worldfolio-banner-light-v1.png" alt="Worldfolio — drive the penguin rover through my interactive 3D portfolio" width="860"></picture></a></p>
+
+<p align="center"><a href="https://pengusto.github.io/worldfolio/">Drive through Worldfolio →</a> · <a href="https://github.com/pengusto/worldfolio">Source & credits</a></p>
+
 <p align="center"><a href="https://github.com/pengusto/kaplum-studio"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-kaplum-studio-dark.svg"><img src="assets/project-kaplum-studio-light.svg" alt="Kaplum Studio — open repository" width="400" align="top"></picture></a>
 <a href="https://github.com/pengusto/push-my-tabs"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-push-my-tabs-dark.svg"><img src="assets/project-push-my-tabs-light.svg" alt="Push My Tabs — open repository" width="400" align="top"></picture></a>
 <a href="https://github.com/pengusto/let-him-grill"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/project-let-him-grill-dark.svg"><img src="assets/project-let-him-grill-light.svg" alt="Let Him Grill — open repository" width="400" align="top"></picture></a>
