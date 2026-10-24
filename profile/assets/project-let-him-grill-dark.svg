@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="400" height="168" viewBox="0 0 400 168" role="img" aria-label="let-him-grill — GitSkins project card"><defs>
+    <linearGradient id="gs-projects-pengusto-dracula-dark-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#171322" />
+      <stop offset="54%" stop-color="#171322" />
+      <stop offset="100%" stop-color="#171322" />
+    </linearGradient>
+    
+    <radialGradient id="gs-projects-pengusto-dracula-dark-orb-0" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#bd93f9" stop-opacity="0.72" />
+      <stop offset="58%" stop-color="#bd93f9" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#bd93f9" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="gs-projects-pengusto-dracula-dark-orb-1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#c39af6" stop-opacity="0.5" />
+      <stop offset="58%" stop-color="#c39af6" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#c39af6" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="gs-projects-pengusto-dracula-dark-orb-2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#9f8ef2" stop-opacity="0.72" />
+      <stop offset="58%" stop-color="#9f8ef2" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#9f8ef2" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="gs-projects-pengusto-dracula-dark-orb-3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#d0b6fa" stop-opacity="0.5" />
+      <stop offset="58%" stop-color="#d0b6fa" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#d0b6fa" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="gs-projects-pengusto-dracula-dark-orb-4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.72" />
+      <stop offset="58%" stop-color="#a78bfa" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0" />
+    </radialGradient>
+    <radialGradient id="gs-projects-pengusto-dracula-dark-orb-5" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a78bfa" stop-opacity="0.5" />
+      <stop offset="58%" stop-color="#a78bfa" stop-opacity="0.18" />
+      <stop offset="100%" stop-color="#a78bfa" stop-opacity="0" />
+    </radialGradient>
+    <linearGradient id="gs-projects-pengusto-dracula-dark-shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#f5efff" stop-opacity="0.2" />
+      <stop offset="44%" stop-color="#a78bfa" stop-opacity="0.82" />
+      <stop offset="100%" stop-color="#bdafd0" stop-opacity="0.22" />
+    </linearGradient>
+    <linearGradient id="gs-projects-pengusto-dracula-dark-holo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#f5efff" />
+      <stop offset="18%" stop-color="#171322" />
+      <stop offset="38%" stop-color="#a78bfa" />
+      <stop offset="58%" stop-color="#bdafd0" />
+      <stop offset="78%" stop-color="#171322" />
+      <stop offset="100%" stop-color="#f5efff" />
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="8s" repeatCount="indefinite" />
+    </linearGradient>
+  </defs>
+  <style>
+    #gs-projects-pengusto-dracula-dark .aura-orb-a { animation: gs-projects-pengusto-dracula-dark-float-a 9s ease-in-out infinite; }
+    #gs-projects-pengusto-dracula-dark .aura-orb-b { animation: gs-projects-pengusto-dracula-dark-float-b 11s ease-in-out infinite 1.1s; }
+    #gs-projects-pengusto-dracula-dark .aura-orb-c { animation: gs-projects-pengusto-dracula-dark-float-c 13s ease-in-out infinite 0.6s; }
+    #gs-projects-pengusto-dracula-dark .aura-ring { animation: gs-projects-pengusto-dracula-dark-ring 8s ease-in-out infinite; }
+    #gs-projects-pengusto-dracula-dark .aura-ring-b { animation: gs-projects-pengusto-dracula-dark-ring 10s ease-in-out infinite 1.6s; }
+    #gs-projects-pengusto-dracula-dark .aura-chip { animation: gs-projects-pengusto-dracula-dark-chip 650ms ease-out both; }
+    #gs-projects-pengusto-dracula-dark .aura-cursor { animation: gs-projects-pengusto-dracula-dark-cursor 1.1s step-end infinite; }
+    #gs-projects-pengusto-dracula-dark .aura-bar { animation: gs-projects-pengusto-dracula-dark-bar 1.15s ease-out both; transform-box: fill-box; transform-origin: left; }
+    #gs-projects-pengusto-dracula-dark .aura-cell { animation: gs-projects-pengusto-dracula-dark-cell 520ms ease-out both; }
+    @keyframes gs-projects-pengusto-dracula-dark-cell { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes gs-projects-pengusto-dracula-dark-float-a { 0%,100% { transform: translate(0,0); opacity: .58; } 50% { transform: translate(28px,-20px); opacity: .86; } }
+    @keyframes gs-projects-pengusto-dracula-dark-float-b { 0%,100% { transform: translate(0,0); opacity: .42; } 50% { transform: translate(-24px,18px); opacity: .72; } }
+    @keyframes gs-projects-pengusto-dracula-dark-float-c { 0%,100% { transform: translate(0,0) scale(1); opacity: .34; } 50% { transform: translate(18px,-12px) scale(1.18); opacity: .62; } }
+    @keyframes gs-projects-pengusto-dracula-dark-ring { 0%,100% { opacity: .06; } 50% { opacity: .22; } }
+    @keyframes gs-projects-pengusto-dracula-dark-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes gs-projects-pengusto-dracula-dark-cursor { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+    @keyframes gs-projects-pengusto-dracula-dark-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  </style>
+  <g id="gs-projects-pengusto-dracula-dark"><rect width="400" height="168" rx="15" fill="#171322" /><g opacity="1" transform="translate(3,3)">
+    <rect width="394" height="162" rx="13" fill="rgba(8,8,12,0.5)" stroke="#a78bfa">
+      <animate attributeName="stroke-opacity" values="0.45;0.85;0.45" dur="4.5s" begin="1.95s" repeatCount="indefinite" />
+    </rect>
+    <path d="M0 13 a13 13 0 0 1 13 -13 h368 a13 13 0 0 1 13 13 v17 h-394 z" fill="#a78bfa" fill-opacity="0.06" />
+    <line x1="0" y1="30" x2="394" y2="30" stroke="#a78bfa" stroke-opacity="0.5" />
+    <text x="16" y="19.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#bdafd0"><tspan fill="#a78bfa">•</tspan> let-him-grill</text>
+    <circle cx="378" cy="15" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite" /></circle>
+    <text x="18" y="58" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16.5" font-weight="700" fill="#f5efff">let-him-grill<tspan fill="#a78bfa"> _<animate attributeName="opacity" values="1;0;1" dur="1.2s" begin="0.95s" repeatCount="indefinite" /></tspan></text>
+    <text x="18" y="79" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#bdafd0">A Codex planning skill: resolve</text>
+    <text x="18" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#bdafd0">reversible decisions, stop at human g…</text>
+    <rect x="18" y="112" width="93" height="18" rx="9" fill="#a78bfa" fill-opacity="0.14" stroke="#a78bfa" stroke-opacity="0.4" /><text x="64" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#a78bfa">agent-skills</text><rect x="117.80000000000001" y="112" width="74" height="18" rx="9" fill="#a78bfa" fill-opacity="0.14" stroke="#a78bfa" stroke-opacity="0.4" /><text x="155" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#a78bfa">ai-agents</text><rect x="198.4" y="112" width="48" height="18" rx="9" fill="#a78bfa" fill-opacity="0.14" stroke="#a78bfa" stroke-opacity="0.4" /><text x="222" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#a78bfa">codex</text>
+    <text x="18" y="150" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#bdafd0"><tspan fill="#5594c8">★</tspan> 1<tspan fill="#bdafd0" fill-opacity="0.7" dx="12">updated 14h ago</tspan></text>
+    <circle cx="348" cy="92" r="25" fill="none" stroke="#bdafd0" stroke-opacity="0.18" stroke-width="8" /><circle cx="348" cy="92" r="25" fill="none" stroke="#3572A5" stroke-width="8" stroke-dasharray="100.01 57.07" stroke-dashoffset="0.00" transform="rotate(-90 348 92)" opacity="1"><animate attributeName="stroke-dasharray" from="0 157.08" to="100.01 57.07" dur="0.6s" begin="0.85s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1" /></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#e34c26" stroke-width="8" stroke-dasharray="57.07 100.01" stroke-dashoffset="-100.01" transform="rotate(-90 348 92)" opacity="1"><animate attributeName="stroke-dasharray" from="0 157.08" to="57.07 100.01" dur="0.6s" begin="1.03s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1" /></circle><text x="348" y="96" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#f5efff">64%</text>
+    </g>
+  </g></svg>

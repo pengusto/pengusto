@@ -1,0 +1,223 @@
+[
+  {
+    "label": "C#",
+    "url": "https://img.shields.io/badge/C%23-239120?style=for-the-badge&logoColor=white&logo=csharp",
+    "group": "creative",
+    "file": "assets/badge-00.svg",
+    "sha256": "2cdb7313cb95164befc70e08e2c38c4cc883e0eb6226e80d105b48187be4b5a8"
+  },
+  {
+    "label": "HTML",
+    "url": "https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logoColor=white&logo=html5",
+    "group": "creative",
+    "file": "assets/badge-01.svg",
+    "sha256": "b2bd7ee46fb006e83f316c37f4d49f142b9b0ff70ac35f40b892173a555df4c6"
+  },
+  {
+    "label": "JavaScript",
+    "url": "https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logoColor=black&logo=javascript",
+    "group": "creative",
+    "file": "assets/badge-02.svg",
+    "sha256": "a4255fb8aa4d46833ba9aa83e4f8863123cfd7e06842559c7e4fe30b3dcd8f08"
+  },
+  {
+    "label": "TeX",
+    "url": "https://img.shields.io/badge/TeX-72519B?style=for-the-badge&logoColor=white",
+    "group": "creative",
+    "file": "assets/badge-03.svg",
+    "sha256": "fb9031181dfd9b240dceac707422934f33a0347a82c66c5da0b4754822819036"
+  },
+  {
+    "label": "Python",
+    "url": "https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logoColor=white&logo=python",
+    "group": "creative",
+    "file": "assets/badge-04.svg",
+    "sha256": "4810a056516011a1d056f244ce231e509f17727e7643c05267c2510575b06d33"
+  },
+  {
+    "label": "CSS",
+    "url": "https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logoColor=white&logo=css3",
+    "group": "creative",
+    "file": "assets/badge-05.svg",
+    "sha256": "3d1ea5bd6abfcdd6f92d25b37c00260a0eddc527de153c7aae48cff87a4dfe33"
+  },
+  {
+    "label": "TypeScript",
+    "url": "https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logoColor=white&logo=typescript",
+    "group": "creative",
+    "file": "assets/badge-06.svg",
+    "sha256": "73aa748edf9e0462d7b82c89365ce230f540ddb797d418e8f7ba6b62b6dd2f8d"
+  },
+  {
+    "label": "Kotlin",
+    "url": "https://img.shields.io/badge/Kotlin-7F52FF?style=for-the-badge&logoColor=white&logo=kotlin",
+    "group": "creative",
+    "file": "assets/badge-07.svg",
+    "sha256": "1fb49e79ec4c5d65a62d2258730413915b7d34e95586b99c4cb7e15e67bb85c7"
+  },
+  {
+    "label": "React",
+    "url": "https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB",
+    "group": "tech",
+    "file": "assets/badge-08.svg",
+    "sha256": "467604ec4b9a678f113a1e31df3f58087b660661697045323466866fa30f2e9a"
+  },
+  {
+    "label": "TypeScript",
+    "url": "https://img.shields.io/badge/TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-09.svg",
+    "sha256": "90d7a7b80a8e23d3a65907b95e694c83f16b2ff08af1d1122818aec93b88dae1"
+  },
+  {
+    "label": "JavaScript",
+    "url": "https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black",
+    "group": "tech",
+    "file": "assets/badge-10.svg",
+    "sha256": "2a68dbe327dc1c8310dd307e5e7421ef2f4667bb2f13b74ecc4f8fbced176081"
+  },
+  {
+    "label": "Python",
+    "url": "https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-11.svg",
+    "sha256": "334ef238a58bf9e4af57754d41f5e5bc08c90aa1a11be9fe49daec044d9b0cee"
+  },
+  {
+    "label": "Node.js",
+    "url": "https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=node.js&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-12.svg",
+    "sha256": "85ed5dc39d90f23311e6a0c61de2def7a931a50c4a90045bfb5efc81eec8c070"
+  },
+  {
+    "label": "Next.js",
+    "url": "https://img.shields.io/badge/Next.js-000000?style=flat-square&logo=next.js&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-13.svg",
+    "sha256": "01356f4b00072507c16c5e42eaac9e74537797cc0e011eebb02aea1142154dcf"
+  },
+  {
+    "label": "Tailwind CSS",
+    "url": "https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=flat-square&logo=tailwind-css&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-14.svg",
+    "sha256": "06e049e00f74a1ca9508e3e26a901afc91c0475a46479f43d5794144afaa1be0"
+  },
+  {
+    "label": "PostgreSQL",
+    "url": "https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-15.svg",
+    "sha256": "619808278579ee14bb9d8a673975916b1a65fe9593bf96d4045d317911564d5f"
+  },
+  {
+    "label": "Supabase",
+    "url": "https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-16.svg",
+    "sha256": "1a0a675ad1def817144e918e18a98648393932925b276e3dd6622d99c0e7a41c"
+  },
+  {
+    "label": "Git",
+    "url": "https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-17.svg",
+    "sha256": "643e69c7681d3d7da4b0091142673826ce36237cc1fee4a73d3a5979aca002c5"
+  },
+  {
+    "label": "Gemini API",
+    "url": "https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=google&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-18.svg",
+    "sha256": "5b273a966694bfbe02195d974966a934d61729aff0dee5d73056053449c87803"
+  },
+  {
+    "label": "Claude API",
+    "url": "https://img.shields.io/badge/Claude_API-D97757?style=flat-square&logo=anthropic&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-19.svg",
+    "sha256": "bf7d0e1d4c6564cf54163ec6202ca296ac11a72b08dbef5fe1c3f7b3965ad304"
+  },
+  {
+    "label": "MCP",
+    "url": "https://img.shields.io/badge/MCP-FF6B35?style=flat-square&logo=anthropic&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-20.svg",
+    "sha256": "3394793a49a63a0511b0fe2455d6bf5f49bbaecda1011f40b384a9c187c501ec"
+  },
+  {
+    "label": "TensorFlow Lite",
+    "url": "https://img.shields.io/badge/TensorFlow_Lite-FF6F00?style=flat-square&logo=tensorflow&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-21.svg",
+    "sha256": "7bafef3ef91b1a0511dd058c5e1cd8bee713f92af35cef7225e20843a5ff092a"
+  },
+  {
+    "label": "Three.js",
+    "url": "https://img.shields.io/badge/Three.js-000000?style=flat-square&logo=three.js&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-22.svg",
+    "sha256": "74a2879f803852ab1fecb6af707e55fbf28d0044a8de8423f32870eaca9ddca9"
+  },
+  {
+    "label": "GSAP",
+    "url": "https://img.shields.io/badge/GSAP-88CE02?style=flat-square&logo=greensock&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-23.svg",
+    "sha256": "6c25a4cfc2c29d4f435bc52dd4df528c67c29079798e53e78d70c7135cd1ff2e"
+  },
+  {
+    "label": "Vite",
+    "url": "https://img.shields.io/badge/Vite-646CFF?style=flat-square&logo=vite&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-24.svg",
+    "sha256": "a650a246553016689aef675883421bbf56da9acfddb5fb6b3b5169e78b6064be"
+  },
+  {
+    "label": "Go",
+    "url": "https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-25.svg",
+    "sha256": "c8539dd84f178811009e17c6dda78b2a0b92448b9e85d3f066e6c08cdc1db0ec"
+  },
+  {
+    "label": "Rust",
+    "url": "https://img.shields.io/badge/Rust-000000?style=flat-square&logo=rust&logoColor=white",
+    "group": "tech",
+    "file": "assets/badge-26.svg",
+    "sha256": "c7aa772ed19d82e0acb6468e4d662e2a51095a598bd6a4d63eeb95ad161f8d1e"
+  },
+  {
+    "label": "Portfolio",
+    "url": "https://img.shields.io/badge/Portfolio-kikaio.de-72519B?style=for-the-badge&logo=vercel&logoColor=white",
+    "group": "connect",
+    "target": "https://kikaio.de",
+    "file": "assets/badge-27.svg",
+    "sha256": "612e2ef2a3cd8351baf07bf7b603e366f499e8ca6bf9ec7f59e78a63043e9734"
+  },
+  {
+    "label": "GitHub",
+    "url": "https://img.shields.io/badge/GitHub-pengusto-342543?style=for-the-badge&logo=github&logoColor=white",
+    "group": "connect",
+    "target": "https://github.com/pengusto",
+    "file": "assets/badge-28.svg",
+    "sha256": "2150cadf84e5816294415b7b2a7775a219a1566c4b8cc717d853eda32a44f6e1"
+  },
+  {
+    "label": "LinkedIn",
+    "url": "https://img.shields.io/badge/LinkedIn-Enis%20Uysal-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white",
+    "target": "https://www.linkedin.com/in/enis-uysal/",
+    "group": "connect",
+    "file": "assets/badge-29.svg",
+    "sha256": "31ac20d4ed0fa6cec2d4a7862389675a9ec5d4db74cc1cab48b61eece0310f1a"
+  },
+  {
+    "label": "Email",
+    "url": "https://img.shields.io/badge/Email-hello%40kikaio.de-72519B?style=for-the-badge&logo=gmail&logoColor=white",
+    "target": "mailto:hello@kikaio.de",
+    "group": "connect",
+    "file": "assets/badge-30.svg",
+    "sha256": "f192d27035fb780b7de266f48b3d17029db10bc69d89573ec50fd1e5003689fe"
+  }
+]

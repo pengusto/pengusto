@@ -2,3 +2,9 @@ __pycache__/
 *.py[cod]
 .venv/
 .scratch/
+
+# Generated local preview pages and refresh locks
+profile/index.html
+profile/light.html
+profile/auto.html
+profile/.refresh-lock

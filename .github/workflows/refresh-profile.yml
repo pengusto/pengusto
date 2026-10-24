@@ -1,8 +1,8 @@
-name: Refresh profile widgets and stats
+name: Refresh profile weekly
 
 on:
   schedule:
-    - cron: '23 5 * * *' # Daily, 05:23 UTC; GitHub may delay scheduled runs.
+    - cron: '23 5 * * 0' # Sunday 05:23 UTC (06:23 CET / 07:23 CEST); GitHub may delay runs.
   workflow_dispatch:
 
 permissions:
@@ -16,7 +16,7 @@ jobs:
   refresh:
     if: github.repository == 'pengusto/pengusto'
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 20
     permissions:
       contents: write
     steps:
@@ -32,6 +32,12 @@ jobs:
         run: python -m pip install --disable-pip-version-check -r requirements-profile.txt
       - name: Check update behavior
         run: python -m unittest discover -s tests -p 'test_profile_update.py'
+      - name: Check reviewed profile refresh behavior
+        run: python -m unittest discover -s profile/tests
+      - name: Refresh reviewed GitSkins composition and City
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python profile/refresh.py --write
       - name: Fetch public GitHub data and regenerate widgets
         env:
           GITHUB_TOKEN: ${{ github.token }}
@@ -72,16 +78,18 @@ jobs:
           token: ${{ github.token }}
           core_version: '2.2.1'
           fail_on_error: 'true'
+      - name: Export reviewed composition to public README
+        run: python profile/publish_readme.py
       - name: Commit changed generated files only
         env:
           TARGET_BRANCH: ${{ github.event.repository.default_branch }}
         run: |
-          git add -- assets/city.svg assets/city-light.svg assets/city-mobile.svg assets/city-light-mobile.svg assets/scan.svg assets/scan-mobile.svg assets/scan-light.svg assets/scan-light-mobile.svg assets/project-kaplum-studio.svg assets/project-kaplum-studio-light.svg assets/project-push-my-tabs.svg assets/project-push-my-tabs-light.svg assets/project-let-him-grill.svg assets/project-let-him-grill-light.svg assets/project-penguin-patches.svg assets/project-penguin-patches-light.svg github-data.json assets/readme-stats/stats.svg assets/readme-stats/stats-light.svg assets/readme-stats/top-langs.svg assets/readme-stats/top-langs-light.svg
+          git add -- README.md profile/README.md profile/assets profile/originals profile/gitskins-sources.json profile/extra-sources.json profile/inputs/github-data.json profile/inputs/assets/city.svg profile/inputs/assets/city-light.svg profile/inputs/assets/city-mobile.svg profile/inputs/assets/city-light-mobile.svg profile/refresh-status.json assets/city.svg assets/city-light.svg assets/city-mobile.svg assets/city-light-mobile.svg assets/scan.svg assets/scan-mobile.svg assets/scan-light.svg assets/scan-light-mobile.svg assets/project-kaplum-studio.svg assets/project-kaplum-studio-light.svg assets/project-push-my-tabs.svg assets/project-push-my-tabs-light.svg assets/project-let-him-grill.svg assets/project-let-him-grill-light.svg assets/project-penguin-patches.svg assets/project-penguin-patches-light.svg github-data.json assets/readme-stats/stats.svg assets/readme-stats/stats-light.svg assets/readme-stats/top-langs.svg assets/readme-stats/top-langs-light.svg
           if git diff --cached --quiet; then
             echo 'Profile data unchanged; no commit needed.'
             exit 0
           fi
           git config user.name 'github-actions[bot]'
           git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
-          git commit -m 'chore: refresh profile widgets and stats'
+          git commit -m 'chore: refresh profile graphics and stats'
           git push origin "HEAD:$TARGET_BRANCH"

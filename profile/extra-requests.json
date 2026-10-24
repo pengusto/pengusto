@@ -1,0 +1,47 @@
+[
+  {
+    "name": "pengusto-terminal",
+    "url": "https://www.gitskins.com/api/section/wordmark?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&label=Pengusto&v=cinematic-hero-wordmark-1&mode=dark",
+    "source": "export-01.html"
+  },
+  {
+    "name": "contribution-trail",
+    "url": "https://www.gitskins.com/api/section/heatmap?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&style=snake&v=cinematic-snake-1&mode=dark",
+    "source": "export-05.html"
+  },
+  {
+    "name": "wow-banner",
+    "url": "https://www.gitskins.com/api/section/hero?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&variant=living-identity&label=Pengusto&v=wow-living-identity-1&mode=dark",
+    "source": "export-06.html"
+  },
+  {
+    "name": "original-city",
+    "url": "https://www.gitskins.com/api/section/city?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4",
+    "source": "user contribution-city snippet"
+  },
+  {
+    "name": "color-portrait",
+    "url": "https://www.gitskins.com/api/section/portrait?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&color=1&v=showcase-portrait-1",
+    "source": "export-07.html"
+  },
+  {
+    "name": "neofetch-portrait",
+    "url": "https://www.gitskins.com/api/section/portrait?username=pengusto&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&style=terminal&color=1&v=terminal-portrait-1&mode=dark",
+    "source": "export-08.html"
+  },
+  {
+    "name": "terminal-toolchain",
+    "url": "https://www.gitskins.com/api/section/stack?username=pengusto&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&style=terminal&v=terminal-stack-1&mode=dark",
+    "source": "export-08.html"
+  },
+  {
+    "name": "showcase-portrait",
+    "url": "https://www.gitskins.com/api/section/portrait?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&v=showcase-portrait-1&mode=dark&style=aura&color=1",
+    "source": "user showcase snippet"
+  },
+  {
+    "name": "showcase-wordmark",
+    "url": "https://www.gitskins.com/api/section/wordmark?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&v=showcase-wordmark-3&mode=dark&style=aura",
+    "source": "user showcase snippet"
+  }
+]

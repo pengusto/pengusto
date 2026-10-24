@@ -1,0 +1,164 @@
+[
+  {
+    "name": "pengusto-terminal",
+    "mode": "dark",
+    "url": "https://www.gitskins.com/api/section/wordmark?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&label=Pengusto&v=cinematic-hero-wordmark-1&mode=dark",
+    "file": "originals/extra-pengusto-terminal-dark.svg",
+    "sha256": "deef351c3b80ec033a98300341398a6b57d84207a763e53e3b3ca4fc554fc074",
+    "viewBox": "0 0 1342 316",
+    "bytes": 68118
+  },
+  {
+    "name": "pengusto-terminal",
+    "mode": "light",
+    "url": "https://www.gitskins.com/api/section/wordmark?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&label=Pengusto&v=cinematic-hero-wordmark-1&mode=light",
+    "file": "originals/extra-pengusto-terminal-light.svg",
+    "sha256": "deef351c3b80ec033a98300341398a6b57d84207a763e53e3b3ca4fc554fc074",
+    "viewBox": "0 0 1342 316",
+    "bytes": 68118
+  },
+  {
+    "name": "contribution-trail",
+    "mode": "dark",
+    "url": "https://www.gitskins.com/api/section/heatmap?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&style=snake&v=cinematic-snake-1&mode=dark",
+    "file": "originals/extra-contribution-trail-dark.svg",
+    "sha256": "e35c7c4a79beb3cc39e831cd90358430b289264962cf5d6d8d9440ae4e6e7199",
+    "viewBox": "0 0 860 264",
+    "bytes": 133151
+  },
+  {
+    "name": "contribution-trail",
+    "mode": "light",
+    "url": "https://www.gitskins.com/api/section/heatmap?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&style=snake&v=cinematic-snake-1&mode=light",
+    "file": "originals/extra-contribution-trail-light.svg",
+    "sha256": "e11c39e07ca8dee79191d01643acbf36858cbf91b28194ec39a5e7ebaf018e15",
+    "viewBox": "0 0 860 264",
+    "bytes": 133186
+  },
+  {
+    "name": "wow-banner",
+    "mode": "dark",
+    "url": "https://www.gitskins.com/api/section/hero?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&variant=living-identity&label=Pengusto&v=wow-living-identity-1&mode=dark",
+    "file": "originals/extra-wow-banner-dark.svg",
+    "sha256": "624c7043ccd0b7a0ab0ed1f9ad58616e6b182540936b869beb380e70fb5c955e",
+    "viewBox": "0 0 1000 570",
+    "bytes": 83241
+  },
+  {
+    "name": "wow-banner",
+    "mode": "light",
+    "url": "https://www.gitskins.com/api/section/hero?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&variant=living-identity&label=Pengusto&v=wow-living-identity-1&mode=light",
+    "file": "originals/extra-wow-banner-light.svg",
+    "sha256": "bca2aabc2a56313aee4e9b24da39dc6ca0397db22522571238f6edfa3dd0f550",
+    "viewBox": "0 0 1000 570",
+    "bytes": 83241
+  },
+  {
+    "name": "original-city",
+    "mode": "dark",
+    "url": "https://www.gitskins.com/api/section/city?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=dark",
+    "file": "originals/extra-original-city-dark.svg",
+    "sha256": "72af80651005883eb1c79a5112100518e585897781978f788812f2fb71cf60af",
+    "viewBox": "0 0 860 420",
+    "bytes": 243759
+  },
+  {
+    "name": "original-city",
+    "mode": "light",
+    "url": "https://www.gitskins.com/api/section/city?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=light",
+    "file": "originals/extra-original-city-light.svg",
+    "sha256": "d34eef37baea0ad565e2a444a55b28a0687c672bcc942ca6c7b0f8c009ea37aa",
+    "viewBox": "0 0 860 420",
+    "bytes": 244929
+  },
+  {
+    "name": "color-portrait",
+    "mode": "dark",
+    "url": "https://www.gitskins.com/api/section/portrait?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&color=1&v=showcase-portrait-1&mode=dark",
+    "file": "originals/extra-color-portrait-dark.svg",
+    "sha256": "44cc94fa9bced615f2820c49b756a0c1cd4d7edf2abf3afeb994ecfdd145eb4d",
+    "viewBox": "0 0 548 360",
+    "bytes": 69236
+  },
+  {
+    "name": "color-portrait",
+    "mode": "light",
+    "url": "https://www.gitskins.com/api/section/portrait?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&color=1&v=showcase-portrait-1&mode=light",
+    "file": "originals/extra-color-portrait-light.svg",
+    "sha256": "44cc94fa9bced615f2820c49b756a0c1cd4d7edf2abf3afeb994ecfdd145eb4d",
+    "viewBox": "0 0 548 360",
+    "bytes": 69236
+  },
+  {
+    "name": "neofetch-portrait",
+    "mode": "dark",
+    "url": "https://www.gitskins.com/api/section/portrait?username=pengusto&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&style=terminal&color=1&v=terminal-portrait-1&mode=dark",
+    "file": "originals/extra-neofetch-portrait-dark.svg",
+    "sha256": "eacce84de6f1c80d19161d111dae20a76d88ecf89e0b4fcf947d83943558ab9b",
+    "viewBox": "0 0 548 360",
+    "bytes": 69716
+  },
+  {
+    "name": "neofetch-portrait",
+    "mode": "light",
+    "url": "https://www.gitskins.com/api/section/portrait?username=pengusto&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&style=terminal&color=1&v=terminal-portrait-1&mode=light",
+    "file": "originals/extra-neofetch-portrait-light.svg",
+    "sha256": "eacce84de6f1c80d19161d111dae20a76d88ecf89e0b4fcf947d83943558ab9b",
+    "viewBox": "0 0 548 360",
+    "bytes": 69716
+  },
+  {
+    "name": "terminal-toolchain",
+    "mode": "dark",
+    "url": "https://www.gitskins.com/api/section/stack?username=pengusto&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&style=terminal&v=terminal-stack-1&mode=dark",
+    "file": "originals/extra-terminal-toolchain-dark.svg",
+    "sha256": "f54094fac14ab79efbca724658ace95c3ea089027097ae2d7a2bdce04ec8cbb3",
+    "viewBox": "0 0 860 130",
+    "bytes": 3375
+  },
+  {
+    "name": "terminal-toolchain",
+    "mode": "light",
+    "url": "https://www.gitskins.com/api/section/stack?username=pengusto&theme=github-dark&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&style=terminal&v=terminal-stack-1&mode=light",
+    "file": "originals/extra-terminal-toolchain-light.svg",
+    "sha256": "f54094fac14ab79efbca724658ace95c3ea089027097ae2d7a2bdce04ec8cbb3",
+    "viewBox": "0 0 860 130",
+    "bytes": 3375
+  },
+  {
+    "name": "showcase-portrait",
+    "mode": "dark",
+    "url": "https://www.gitskins.com/api/section/portrait?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&v=showcase-portrait-1&mode=dark&style=aura&color=1",
+    "file": "originals/extra-showcase-portrait-dark.svg",
+    "sha256": "44cc94fa9bced615f2820c49b756a0c1cd4d7edf2abf3afeb994ecfdd145eb4d",
+    "viewBox": "0 0 548 360",
+    "bytes": 69236
+  },
+  {
+    "name": "showcase-portrait",
+    "mode": "light",
+    "url": "https://www.gitskins.com/api/section/portrait?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&v=showcase-portrait-1&mode=light&style=aura&color=1",
+    "file": "originals/extra-showcase-portrait-light.svg",
+    "sha256": "44cc94fa9bced615f2820c49b756a0c1cd4d7edf2abf3afeb994ecfdd145eb4d",
+    "viewBox": "0 0 548 360",
+    "bytes": 69236
+  },
+  {
+    "name": "showcase-wordmark",
+    "mode": "dark",
+    "url": "https://www.gitskins.com/api/section/wordmark?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&v=showcase-wordmark-3&mode=dark&style=aura",
+    "file": "originals/extra-showcase-wordmark-dark.svg",
+    "sha256": "deef351c3b80ec033a98300341398a6b57d84207a763e53e3b3ca4fc554fc074",
+    "viewBox": "0 0 1342 316",
+    "bytes": 68118
+  },
+  {
+    "name": "showcase-wordmark",
+    "mode": "light",
+    "url": "https://www.gitskins.com/api/section/wordmark?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&v=showcase-wordmark-3&mode=light&style=aura",
+    "file": "originals/extra-showcase-wordmark-light.svg",
+    "sha256": "deef351c3b80ec033a98300341398a6b57d84207a763e53e3b3ca4fc554fc074",
+    "viewBox": "0 0 1342 316",
+    "bytes": 68118
+  }
+]
