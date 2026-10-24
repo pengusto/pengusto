@@ -25,3 +25,9 @@ Commands from the repository root:
 History and old profile scripts are retained. The weekly workflow supersedes their prior daily cadence; it is the only active refresh schedule.
 
 Publication regression: run both test suites after exporting the new root README, not only before export. Existing repository-link tests must validate the published profile/assets paths and exclude project-site chips. The first hosted run caught this stale expectation before any bot update was published.
+
+## Hosted acceptance — 24 October 2026
+
+Run https://github.com/pengusto/pengusto/actions/runs/40056426560 completed successfully with the 12 existing tests, 13 composition/publication tests, live GitSkins/calendar refresh, all four retained Stats Action cards, root README export and bot push. Bot commit `251d3ab` (`chore: refresh profile graphics and stats`) changed 38 generated files. The City average recalculated from its live calendar rather than retaining the initial 8.1.
+
+The public profile was browser-verified at 1440px desktop and 390px mobile: no broken README images after loading, no horizontal page overflow, all four project cards target their own repositories, the mobile City source is selected, and Worldfolio remains linked. The first failed run stopped at the stale legacy asset-path assertion before publication of generated updates; its correction is retained in tests/test_profile_update.py.
