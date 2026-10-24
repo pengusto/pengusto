@@ -23,3 +23,5 @@ Commands from the repository root:
 - `python profile/publish_readme.py` (export root README)
 
 History and old profile scripts are retained. The weekly workflow supersedes their prior daily cadence; it is the only active refresh schedule.
+
+Publication regression: run both test suites after exporting the new root README, not only before export. Existing repository-link tests must validate the published profile/assets paths and exclude project-site chips. The first hosted run caught this stale expectation before any bot update was published.

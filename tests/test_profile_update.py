@@ -125,13 +125,13 @@ class UpdateTests(unittest.TestCase):
             def handle_starttag(self,tag,attrs):
                 a=dict(attrs)
                 if tag=='a': self.href=a.get('href')
-                if tag=='img' and a.get('src','').startswith('assets/project-'):
+                if tag=='img' and a.get('src','').startswith('profile/assets/project-') and not a.get('src','').startswith('profile/assets/project-site-'):
                     self.cards[a['src'].split('?')[0]]=self.href
             def handle_endtag(self,tag):
                 if tag=='a':self.href=None
         parser=Cards();parser.feed((Path(__file__).parents[1]/'README.md').read_text())
         from profile_projects import PROJECT_NAMES
-        self.assertEqual(parser.cards,{'assets/project-'+n+'-light.svg':'https://github.com/pengusto/'+n for n in PROJECT_NAMES})
+        self.assertEqual(parser.cards,{'profile/assets/project-'+n+'-light.svg':'https://github.com/pengusto/'+n for n in PROJECT_NAMES})
 
     def test_city_uses_last_year_labels_without_visible_dates(self):
         import xml.etree.ElementTree as ET
