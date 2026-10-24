@@ -90,3 +90,10 @@ Four local files are generated: `assets/readme-stats/stats.svg`, `stats-light.sv
 The coloured terminal option is a saved export, with its GitSkins branding retained. Its numbers are a snapshot from 24 October 2026; only the separate native widgets and README Stats cards refresh automatically. Source/hash records are in `docs/showcase-assets.json`.
 
 Lesson retained: a local preview/draft must not replace a newer live profile wholesale. Fetch the current profile first, then add the requested section while preserving its existing content and automation.
+
+
+### First hosted verification
+
+[Run 40047160177](https://github.com/pengusto/pengusto/actions/runs/40047160177) succeeded on 24 October 2026 in 49 seconds, including all twelve existing regression tests, the native data refresh, all four Stats Action renders and the bot commit. The public README integration was then published separately so its image paths already existed.
+
+The live GitHub profile was checked at 1440×960 in dark mode and 390×844 in light mode with reduced motion. All 31 README images loaded with expandable project/terminal sections open; theme-specific cards selected the expected local SVGs. The Worldfolio image links to the verified Pages address, and reduced motion selects its static poster. Neither viewport had page overflow. Worldfolio itself passed desktop driving, six project destinations, Enter-to-repository interaction, mobile touch start and the Details panel. The production world made no external resource requests and had no missing files or page errors. Physical Safari/iOS acceptance remains untested.
