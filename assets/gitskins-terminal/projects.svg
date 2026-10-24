@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="860" height="452" viewBox="0 0 860 452" role="img" aria-label="GitSkins gs-projects-pengusto-github-dark-dark section">
+  <defs>
+    <linearGradient id="gs-projects-pengusto-github-dark-dark-bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0d1117"/>
+      <stop offset="54%" stop-color="#161b22"/>
+      <stop offset="100%" stop-color="#0d1117"/>
+    </linearGradient>
+    
+    <radialGradient id="gs-projects-pengusto-github-dark-dark-orb-0" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#58a6ff" stop-opacity="0.72"/>
+      <stop offset="58%" stop-color="#58a6ff" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#58a6ff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gs-projects-pengusto-github-dark-dark-orb-1" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#39d353" stop-opacity="0.5"/>
+      <stop offset="58%" stop-color="#39d353" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#39d353" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gs-projects-pengusto-github-dark-dark-orb-2" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#a371f7" stop-opacity="0.72"/>
+      <stop offset="58%" stop-color="#a371f7" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#a371f7" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gs-projects-pengusto-github-dark-dark-orb-3" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#22d3ee" stop-opacity="0.5"/>
+      <stop offset="58%" stop-color="#22d3ee" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#22d3ee" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gs-projects-pengusto-github-dark-dark-orb-4" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#3b82f6" stop-opacity="0.72"/>
+      <stop offset="58%" stop-color="#3b82f6" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#3b82f6" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gs-projects-pengusto-github-dark-dark-orb-5" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#7ee787" stop-opacity="0.5"/>
+      <stop offset="58%" stop-color="#7ee787" stop-opacity="0.18"/>
+      <stop offset="100%" stop-color="#7ee787" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="gs-projects-pengusto-github-dark-dark-shine" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#e6edf3" stop-opacity="0.2"/>
+      <stop offset="44%" stop-color="#58a6ff" stop-opacity="0.82"/>
+      <stop offset="100%" stop-color="#8b949e" stop-opacity="0.22"/>
+    </linearGradient>
+    <linearGradient id="gs-projects-pengusto-github-dark-dark-holo" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#e6edf3"/>
+      <stop offset="18%" stop-color="#0d1117"/>
+      <stop offset="38%" stop-color="#58a6ff"/>
+      <stop offset="58%" stop-color="#8b949e"/>
+      <stop offset="78%" stop-color="#0d1117"/>
+      <stop offset="100%" stop-color="#e6edf3"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 0.5 0.5" to="360 0.5 0.5" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <style>
+    #gs-projects-pengusto-github-dark-dark .aura-orb-a { animation: gs-projects-pengusto-github-dark-dark-float-a 9s ease-in-out infinite; }
+    #gs-projects-pengusto-github-dark-dark .aura-orb-b { animation: gs-projects-pengusto-github-dark-dark-float-b 11s ease-in-out infinite 1.1s; }
+    #gs-projects-pengusto-github-dark-dark .aura-orb-c { animation: gs-projects-pengusto-github-dark-dark-float-c 13s ease-in-out infinite 0.6s; }
+    #gs-projects-pengusto-github-dark-dark .aura-ring { animation: gs-projects-pengusto-github-dark-dark-ring 8s ease-in-out infinite; }
+    #gs-projects-pengusto-github-dark-dark .aura-ring-b { animation: gs-projects-pengusto-github-dark-dark-ring 10s ease-in-out infinite 1.6s; }
+    #gs-projects-pengusto-github-dark-dark .aura-chip { animation: gs-projects-pengusto-github-dark-dark-chip 650ms ease-out both; }
+    #gs-projects-pengusto-github-dark-dark .aura-cursor { animation: gs-projects-pengusto-github-dark-dark-cursor 1.1s step-end infinite; }
+    #gs-projects-pengusto-github-dark-dark .aura-bar { animation: gs-projects-pengusto-github-dark-dark-bar 1.15s ease-out both; transform-box: fill-box; transform-origin: left; }
+    #gs-projects-pengusto-github-dark-dark .aura-cell { animation: gs-projects-pengusto-github-dark-dark-cell 520ms ease-out both; }
+    @keyframes gs-projects-pengusto-github-dark-dark-cell { from { opacity: 0; transform: translateY(-3px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes gs-projects-pengusto-github-dark-dark-float-a { 0%,100% { transform: translate(0,0); opacity: .58; } 50% { transform: translate(28px,-20px); opacity: .86; } }
+    @keyframes gs-projects-pengusto-github-dark-dark-float-b { 0%,100% { transform: translate(0,0); opacity: .42; } 50% { transform: translate(-24px,18px); opacity: .72; } }
+    @keyframes gs-projects-pengusto-github-dark-dark-float-c { 0%,100% { transform: translate(0,0) scale(1); opacity: .34; } 50% { transform: translate(18px,-12px) scale(1.18); opacity: .62; } }
+    @keyframes gs-projects-pengusto-github-dark-dark-ring { 0%,100% { opacity: .06; } 50% { opacity: .22; } }
+    @keyframes gs-projects-pengusto-github-dark-dark-chip { from { opacity: 0; transform: translateY(8px); } to { opacity: 1; transform: translateY(0); } }
+    @keyframes gs-projects-pengusto-github-dark-dark-cursor { 0%,49% { opacity: 1; } 50%,100% { opacity: 0; } }
+    @keyframes gs-projects-pengusto-github-dark-dark-bar { from { transform: scaleX(0); } to { transform: scaleX(1); } }
+  </style>
+  <g id="gs-projects-pengusto-github-dark-dark">
+    <rect width="860" height="452" rx="20" fill="url(#gs-projects-pengusto-github-dark-dark-bg)"/>
+    
+    <ellipse class="aura-orb-a" cx="138" cy="81" rx="206" ry="208" fill="url(#gs-projects-pengusto-github-dark-dark-orb-0)"/>
+    <ellipse class="aura-orb-b" cx="654" cy="99" rx="241" ry="190" fill="url(#gs-projects-pengusto-github-dark-dark-orb-1)"/>
+    <ellipse class="aura-orb-c" cx="499" cy="398" rx="310" ry="154" fill="url(#gs-projects-pengusto-github-dark-dark-orb-2)"/>
+    <ellipse class="aura-orb-b" cx="826" cy="353" rx="172" ry="190" fill="url(#gs-projects-pengusto-github-dark-dark-orb-3)"/>
+    <text x="30" y="40" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="12" letter-spacing="2" fill="#58a6ff">PROJECTS.LIST</text>
+    <text x="180" y="40" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e" fill-opacity="0.8">./projects.sh --all</text>
+    <text x="830" y="40" text-anchor="end" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e" fill-opacity="0.7">4 projects</text>
+    <line x1="28" y1="52" x2="832" y2="52" stroke="#58a6ff" stroke-opacity="0.5" stroke-width="1.5"/>
+    <a href="https://github.com/pengusto/kaplum-studio" target="_blank">
+    <g opacity="0" transform="translate(28,88)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.25s" fill="freeze"/>
+    <rect width="394" height="162" rx="13" fill="rgba(8,8,12,0.5)" stroke="#58a6ff">
+      <animate attributeName="stroke-opacity" values="0.45;0.85;0.45" dur="4.5s" begin="0.25s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M0 13 a13 13 0 0 1 13 -13 h368 a13 13 0 0 1 13 13 v17 h-394 z" fill="#58a6ff" fill-opacity="0.06"/>
+    <line x1="0" y1="30" x2="394" y2="30" stroke="#58a6ff" stroke-opacity="0.5"/>
+    <text x="16" y="19.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8b949e"><tspan fill="#58a6ff">&#8226;</tspan> kaplum-studio</text>
+    <circle cx="378" cy="15" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="18" y="58" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16.5" font-weight="700" fill="#e6edf3">kaplum-studio<tspan fill="#58a6ff"> _<animate attributeName="opacity" values="1;0;1" dur="1.2s" begin="0.65s" repeatCount="indefinite"/></tspan></text>
+    <text x="18" y="79" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#8b949e">Learn JavaScript by drawing: a visual</text>
+    <text x="18" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#8b949e">Turtle studio with editable examples,…</text>
+    <rect x="18" y="112" width="112" height="18" rx="9" fill="#58a6ff" fill-opacity="0.14" stroke="#58a6ff" stroke-opacity="0.4"/><text x="74" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#58a6ff">creative-coding</text><rect x="137" y="112" width="74" height="18" rx="9" fill="#58a6ff" fill-opacity="0.14" stroke="#58a6ff" stroke-opacity="0.4"/><text x="174" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#58a6ff">education</text><rect x="217.6" y="112" width="80" height="18" rx="9" fill="#58a6ff" fill-opacity="0.14" stroke="#58a6ff" stroke-opacity="0.4"/><text x="258" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#58a6ff">javascript</text>
+    <text x="18" y="150" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e"><tspan fill="#f1e05a">&#9733;</tspan> 0<tspan fill="#8b949e" fill-opacity="0.7" dx="12">updated just now</tspan></text>
+    <circle cx="348" cy="92" r="25" fill="none" stroke="#8b949e" stroke-opacity="0.18" stroke-width="8"/><circle cx="348" cy="92" r="25" fill="none" stroke="#f1e05a" stroke-width="8" stroke-dasharray="139.41 17.67" stroke-dashoffset="0.00" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.55s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="139.41 17.67" dur="0.6s" begin="0.55s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#663399" stroke-width="8" stroke-dasharray="17.66 139.42" stroke-dashoffset="-139.41" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.73s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="17.66 139.42" dur="0.6s" begin="0.73s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#89e051" stroke-width="8" stroke-dasharray="0.01 157.07" stroke-dashoffset="-157.07" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.91s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="0.01 157.07" dur="0.6s" begin="0.91s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><text x="348" y="96" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#e6edf3">89%</text>
+    </g>
+  </a><a href="https://github.com/pengusto/push-my-tabs" target="_blank">
+    <g opacity="0" transform="translate(438,88)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.40s" fill="freeze"/>
+    <rect width="394" height="162" rx="13" fill="rgba(8,8,12,0.5)" stroke="#58a6ff">
+      <animate attributeName="stroke-opacity" values="0.45;0.85;0.45" dur="4.5s" begin="1.10s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M0 13 a13 13 0 0 1 13 -13 h368 a13 13 0 0 1 13 13 v17 h-394 z" fill="#58a6ff" fill-opacity="0.06"/>
+    <line x1="0" y1="30" x2="394" y2="30" stroke="#58a6ff" stroke-opacity="0.5"/>
+    <text x="16" y="19.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8b949e"><tspan fill="#58a6ff">&#8226;</tspan> push-my-tabs</text>
+    <circle cx="378" cy="15" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="18" y="58" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16.5" font-weight="700" fill="#e6edf3">push-my-tabs<tspan fill="#58a6ff"> _<animate attributeName="opacity" values="1;0;1" dur="1.2s" begin="0.80s" repeatCount="indefinite"/></tspan></text>
+    <text x="18" y="79" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#8b949e">Layout-aware keyboard shortcuts and</text>
+    <text x="18" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#8b949e">quick tab actions for Chrome and Fire…</text>
+    <rect x="18" y="112" width="118" height="18" rx="9" fill="#58a6ff" fill-opacity="0.14" stroke="#58a6ff" stroke-opacity="0.4"/><text x="77" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#58a6ff">chrome-extension</text><rect x="143.4" y="112" width="99" height="18" rx="9" fill="#58a6ff" fill-opacity="0.14" stroke="#58a6ff" stroke-opacity="0.4"/><text x="193" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#58a6ff">firefox-addon</text><rect x="249.60000000000002" y="112" width="131" height="18" rx="9" fill="#58a6ff" fill-opacity="0.14" stroke="#58a6ff" stroke-opacity="0.4"/><text x="315" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#58a6ff">keyboard-shortcuts</text>
+    <text x="18" y="150" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e"><tspan fill="#f1e05a">&#9733;</tspan> 0<tspan fill="#8b949e" fill-opacity="0.7" dx="12">updated just now</tspan></text>
+    <circle cx="348" cy="92" r="25" fill="none" stroke="#8b949e" stroke-opacity="0.18" stroke-width="8"/><circle cx="348" cy="92" r="25" fill="none" stroke="#f1e05a" stroke-width="8" stroke-dasharray="79.14 77.94" stroke-dashoffset="0.00" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.70s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="79.14 77.94" dur="0.6s" begin="0.70s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#e34c26" stroke-width="8" stroke-dasharray="47.05 110.03" stroke-dashoffset="-79.14" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.88s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="47.05 110.03" dur="0.6s" begin="0.88s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#663399" stroke-width="8" stroke-dasharray="28.42 128.65" stroke-dashoffset="-126.19" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.06s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="28.42 128.65" dur="0.6s" begin="1.06s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#89e051" stroke-width="8" stroke-dasharray="2.47 154.61" stroke-dashoffset="-154.61" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.24s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="2.47 154.61" dur="0.6s" begin="1.24s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><text x="348" y="96" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#e6edf3">50%</text>
+    </g>
+  </a><a href="https://github.com/pengusto/let-him-grill" target="_blank">
+    <g opacity="0" transform="translate(28,266)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.55s" fill="freeze"/>
+    <rect width="394" height="162" rx="13" fill="rgba(8,8,12,0.5)" stroke="#58a6ff">
+      <animate attributeName="stroke-opacity" values="0.45;0.85;0.45" dur="4.5s" begin="1.95s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M0 13 a13 13 0 0 1 13 -13 h368 a13 13 0 0 1 13 13 v17 h-394 z" fill="#58a6ff" fill-opacity="0.06"/>
+    <line x1="0" y1="30" x2="394" y2="30" stroke="#58a6ff" stroke-opacity="0.5"/>
+    <text x="16" y="19.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8b949e"><tspan fill="#58a6ff">&#8226;</tspan> let-him-grill</text>
+    <circle cx="378" cy="15" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="18" y="58" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16.5" font-weight="700" fill="#e6edf3">let-him-grill<tspan fill="#58a6ff"> _<animate attributeName="opacity" values="1;0;1" dur="1.2s" begin="0.95s" repeatCount="indefinite"/></tspan></text>
+    <text x="18" y="79" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#8b949e">A Codex planning skill: resolve</text>
+    <text x="18" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#8b949e">reversible decisions, stop at human g…</text>
+    <rect x="18" y="112" width="93" height="18" rx="9" fill="#58a6ff" fill-opacity="0.14" stroke="#58a6ff" stroke-opacity="0.4"/><text x="64" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#58a6ff">agent-skills</text><rect x="117.80000000000001" y="112" width="74" height="18" rx="9" fill="#58a6ff" fill-opacity="0.14" stroke="#58a6ff" stroke-opacity="0.4"/><text x="155" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#58a6ff">ai-agents</text><rect x="198.4" y="112" width="48" height="18" rx="9" fill="#58a6ff" fill-opacity="0.14" stroke="#58a6ff" stroke-opacity="0.4"/><text x="222" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#58a6ff">codex</text>
+    <text x="18" y="150" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e"><tspan fill="#5594c8">&#9733;</tspan> 1<tspan fill="#8b949e" fill-opacity="0.7" dx="12">updated 11h ago</tspan></text>
+    <circle cx="348" cy="92" r="25" fill="none" stroke="#8b949e" stroke-opacity="0.18" stroke-width="8"/><circle cx="348" cy="92" r="25" fill="none" stroke="#3572A5" stroke-width="8" stroke-dasharray="100.01 57.07" stroke-dashoffset="0.00" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="0.85s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="100.01 57.07" dur="0.6s" begin="0.85s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#e34c26" stroke-width="8" stroke-dasharray="57.07 100.01" stroke-dashoffset="-100.01" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.03s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="57.07 100.01" dur="0.6s" begin="1.03s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><text x="348" y="96" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#e6edf3">64%</text>
+    </g>
+  </a><a href="https://github.com/pengusto/penguin-patches" target="_blank">
+    <g opacity="0" transform="translate(438,266)">
+    <animate attributeName="opacity" from="0" to="1" dur="0.5s" begin="0.70s" fill="freeze"/>
+    <rect width="394" height="162" rx="13" fill="rgba(8,8,12,0.5)" stroke="#58a6ff">
+      <animate attributeName="stroke-opacity" values="0.45;0.85;0.45" dur="4.5s" begin="2.80s" repeatCount="indefinite"/>
+    </rect>
+    <path d="M0 13 a13 13 0 0 1 13 -13 h368 a13 13 0 0 1 13 13 v17 h-394 z" fill="#58a6ff" fill-opacity="0.06"/>
+    <line x1="0" y1="30" x2="394" y2="30" stroke="#58a6ff" stroke-opacity="0.5"/>
+    <text x="16" y="19.5" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="10.5" fill="#8b949e"><tspan fill="#58a6ff">&#8226;</tspan> penguin-patches</text>
+    <circle cx="378" cy="15" r="4" fill="#3fb950"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="18" y="58" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="16.5" font-weight="700" fill="#e6edf3">penguin-patches<tspan fill="#58a6ff"> _<animate attributeName="opacity" values="1;0;1" dur="1.2s" begin="1.10s" repeatCount="indefinite"/></tspan></text>
+    <text x="18" y="79" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#8b949e">Focused Android app patches compatible</text>
+    <text x="18" y="95" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11.5" fill="#8b949e">with Morphe. Current catalogue: Fossi…</text>
+    <rect x="18" y="112" width="61" height="18" rx="9" fill="#58a6ff" fill-opacity="0.14" stroke="#58a6ff" stroke-opacity="0.4"/><text x="48" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#58a6ff">android</text><rect x="85.80000000000001" y="112" width="112" height="18" rx="9" fill="#58a6ff" fill-opacity="0.14" stroke="#58a6ff" stroke-opacity="0.4"/><text x="142" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#58a6ff">android-patches</text><rect x="204.8" y="112" width="61" height="18" rx="9" fill="#58a6ff" fill-opacity="0.14" stroke="#58a6ff" stroke-opacity="0.4"/><text x="235" y="124.5" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="9.5" fill="#58a6ff">fossify</text>
+    <text x="18" y="150" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" fill="#8b949e"><tspan fill="#a97bff">&#9733;</tspan> 2<tspan fill="#8b949e" fill-opacity="0.7" dx="12">updated 10h ago</tspan></text>
+    <circle cx="348" cy="92" r="25" fill="none" stroke="#8b949e" stroke-opacity="0.18" stroke-width="8"/><circle cx="348" cy="92" r="25" fill="none" stroke="#A97BFF" stroke-width="8" stroke-dasharray="104.76 52.32" stroke-dashoffset="0.00" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.00s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="104.76 52.32" dur="0.6s" begin="1.00s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><circle cx="348" cy="92" r="25" fill="none" stroke="#b07219" stroke-width="8" stroke-dasharray="52.32 104.76" stroke-dashoffset="-104.76" transform="rotate(-90 348 92)" opacity="0"><animate attributeName="opacity" from="0" to="1" dur="0.01s" begin="1.18s" fill="freeze"/><animate attributeName="stroke-dasharray" from="0 157.08" to="52.32 104.76" dur="0.6s" begin="1.18s" fill="freeze" calcMode="spline" keyTimes="0;1" keySplines="0.3 0 0.2 1"/></circle><text x="348" y="96" text-anchor="middle" font-family="ui-monospace,'SF Mono',SFMono-Regular,Menlo,Consolas,monospace" font-size="11" font-weight="700" fill="#e6edf3">67%</text>
+    </g>
+  </a>
+    <text x="847" y="441" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="600" letter-spacing="0.3" fill="#8b949e" fill-opacity="0.42">gitskins.com</text>
+    <rect x="0.5" y="0.5" width="859" height="451" rx="19.5" fill="none" stroke="#58a6ff" stroke-opacity="0.62"/>
+  </g>
+</svg>

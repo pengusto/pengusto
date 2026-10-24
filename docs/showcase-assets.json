@@ -1,0 +1,78 @@
+{
+  "gitskins_terminal": {
+    "savedOn": "2026-10-24",
+    "assets": [
+      {
+        "path": "assets/gitskins-terminal/hero.svg",
+        "url": "https://www.gitskins.com/api/section/hero?username=pengusto&theme=github-dark&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&v=showcase-hero-1",
+        "sha256": "5d231b2d23a456db8653dfbfa176de9b7f55d68b427bb1e90fcf77e982714c93",
+        "bytes": 297033,
+        "width": "860",
+        "height": "240"
+      },
+      {
+        "path": "assets/gitskins-terminal/projects.svg",
+        "url": "https://www.gitskins.com/api/section/projects?username=pengusto&theme=github-dark&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&v=showcase-projects-2",
+        "sha256": "ecd875199da3cc41d784e60eb41e1433e62853169e1d23ac34c4d14ccb6ff7cf",
+        "bytes": 24820,
+        "width": "860",
+        "height": "452"
+      },
+      {
+        "path": "assets/gitskins-terminal/heatmap.svg",
+        "url": "https://www.gitskins.com/api/section/heatmap?username=pengusto&theme=github-dark&style=jet&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&v=showcase-heatmap-3",
+        "sha256": "71442cc09823d362cb1e9d5e8ee2d69811f4305c45ddf3c9ea5455fccde30d71",
+        "bytes": 240406,
+        "width": "860",
+        "height": "272"
+      },
+      {
+        "path": "assets/gitskins-terminal/stats.svg",
+        "url": "https://www.gitskins.com/api/section/stats?username=pengusto&theme=github-dark&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&v=showcase-stats-4",
+        "sha256": "89978ed0c31f92d1606a67717e792d14ac107d5129f424e2526aefa723a6301d",
+        "bytes": 10782,
+        "width": "860",
+        "height": "260"
+      },
+      {
+        "path": "assets/gitskins-terminal/social.svg",
+        "url": "https://www.gitskins.com/api/section/social?username=pengusto&theme=github-dark&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&v=showcase-social-5",
+        "sha256": "19ca22da9f7be0f22f4715793c094f63fa12a15b36ec7212c0f35751c902aa54",
+        "bytes": 7802,
+        "width": "860",
+        "height": "126"
+      }
+    ]
+  },
+  "worldfolio_recording": {
+    "createdOn": "2026-10-24",
+    "sourceSha256": "d2bb6898e081259fc2fd61fae0ba2adf3ce1847444ff20f6ce0d1d1118d851ad",
+    "method": "Actual local Worldfolio recording; real keyboard driving, cut to prepared project-area shot.",
+    "encoder": "FFmpeg 8.0.1; fps=10, scale=800x450, palettegen=max_colors=128:stats_mode=diff, paletteuse=dither=bayer:bayer_scale=4:diff_mode=rectangle",
+    "shots": [
+      {
+        "start": 9.016,
+        "duration": 4.630000000000001,
+        "scene": "Real keyboard driving in the intro world"
+      },
+      {
+        "start": 18.697,
+        "duration": 3.3249999999999993,
+        "scene": "Personalized repository boards in the real Worldfolio runtime"
+      }
+    ],
+    "assets": [
+      {
+        "path": "assets/worldfolio-demo.gif",
+        "bytes": 3338915,
+        "sha256": "dc1a90263c9d8485e73f367cb59da86329271b58932f1394b44f1caeb0c8ba71"
+      },
+      {
+        "path": "assets/worldfolio-poster.png",
+        "bytes": 140065,
+        "sha256": "a6b02f567e8849ed7c0b1a8ba54ef76527e95c5afa21f30d7d53146a43671af3"
+      }
+    ],
+    "sourceNote": "The unedited WebM is retained in the local production archive, not deployed in this profile repository."
+  }
+}

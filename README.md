@@ -30,6 +30,17 @@
 <img src="assets/city-light.svg?v=lastyear-20261024" alt="Pengusto contribution city — actual GitHub calendar data in matching dark and light palettes." width="860">
 </picture>
 
+## Drive through my work
+
+<a href="https://pengusto.github.io/worldfolio/">
+<picture>
+<source media="(prefers-reduced-motion: reduce)" srcset="assets/worldfolio-poster.png">
+<img src="assets/worldfolio-demo.gif" width="860" alt="Explore Pengusto’s Worldfolio — drive through the 3D portfolio and visit the Penguin Patches project.">
+</picture>
+</a>
+
+[Explore Worldfolio ↗](https://pengusto.github.io/worldfolio/) · Arrow keys / WASD to drive, Enter to interact. Portfolio direction by [Bruno SIMON](https://github.com/brunosimon/folio-2019), adapted through GitSkins. Project data is a saved public-profile snapshot.
+
 ## Selected work
 
 [![Kaplum Studio — learn JavaScript by drawing. Open the real lesson.](assets/kaplum-demo.gif)](https://pengusto.github.io/kaplum-studio/#course/square)
@@ -77,6 +88,35 @@
 </p>
 
 </details>
+
+## Public GitHub stats
+
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/readme-stats/stats.svg">
+<img src="assets/readme-stats/stats-light.svg" alt="Pengusto’s public GitHub statistics, refreshed daily by GitHub Actions." width="420">
+</picture>
+<picture>
+<source media="(prefers-color-scheme: dark)" srcset="assets/readme-stats/top-langs.svg">
+<img src="assets/readme-stats/top-langs-light.svg" alt="Languages across Pengusto’s public repositories; repository composition, not proficiency." width="420">
+</picture>
+
+Generated daily with [GitHub Readme Stats Action](https://github.com/stats-organization/github-readme-stats-action). [Refresh status ↗](https://github.com/pengusto/pengusto/actions/workflows/refresh-profile.yml)
+
+## Terminal view
+
+<img src="assets/gitskins-terminal/hero.svg" alt="Pengusto’s colourful GitSkins terminal visual — saved design option." width="860">
+
+<details>
+<summary>More colourful cards · saved design option</summary>
+
+<img src="assets/gitskins-terminal/projects.svg" alt="Pengusto projects — saved GitSkins visual" width="860">
+<img src="assets/gitskins-terminal/heatmap.svg" alt="Pengusto activity — saved GitSkins visual" width="860">
+<img src="assets/gitskins-terminal/stats.svg" alt="Pengusto statistics — saved GitSkins visual" width="860">
+<img src="assets/gitskins-terminal/social.svg" alt="Pengusto links — saved GitSkins visual" width="860">
+
+</details>
+
+GitSkins visuals saved on 24 October 2026 for comparison. These cards retain their original branding and snapshot numbers; the separate cards above refresh automatically.
 
 [All public repositories ↗](https://github.com/pengusto?tab=repositories&amp;type=source) · [kikaio.de ↗](https://kikaio.de)
 
