@@ -2,7 +2,8 @@ name: Refresh profile weekly
 
 on:
   schedule:
-    - cron: '23 5 * * 0' # Sunday 05:23 UTC (06:23 CET / 07:23 CEST); GitHub may delay runs.
+    - cron: '0 8 * * 0' # Sunday 08:00 local time, including daylight saving time.
+      timezone: Europe/Berlin
   workflow_dispatch:
 
 permissions:
