@@ -4,6 +4,8 @@ The public entry point is the repository-root README. Its approved composition i
 
 The single `.github/workflows/refresh-profile.yml` workflow runs each Sunday at 08:00 Europe/Berlin (the schedule timezone handles daylight saving time automatically), plus manual dispatch. There is no push trigger, so its bot commit does not loop. It runs both regression suites, stages the complete GitSkins/calendar refresh, retains the pre-existing native widget and Stats Action updates, exports the root README and commits only generated files. A no-change run makes no commit. Normal Git push is used, so concurrent external changes cause a safe rejection rather than a force-push.
 
+The optional GitHub Sponsors link is part of the composition in `profile/build.py`, so regeneration and root README export retain it. Update that source rather than only editing the generated README.
+
 `contents: write` is scoped to the refresh job. The built-in GitHub token is used for GitHub API calls and the repository commit; calendar code forwards it only to api.github.com. GitSkins receives only the public username/avatar parameters. No new secret or personal token is required. The dependency and Action versions remain pinned.
 
 GitSkins supplies the saved original hero, project art, orbit portrait, wordmark, Snake and Social art used by project chips. Future refreshes depend on its API and account/service terms. Downloaded SVGs continue displaying through an outage. A fetch or validation failure stops before publication and retains the previous public output. The original download URLs/hashes remain in source manifests and originals/. Retained comparison outputs are source material, not extra visible sections.

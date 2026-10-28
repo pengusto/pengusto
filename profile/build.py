@@ -170,7 +170,8 @@ selected='## Selected work\n\n[![Actual Kaplum Studio lesson recording — click
 worldfolio='<p align="center"><a href="https://pengusto.github.io/worldfolio/"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/worldfolio-banner-dark-v1.png"><img src="assets/worldfolio-banner-light-v1.png" alt="Worldfolio — drive the penguin rover through my interactive 3D portfolio" width="860"></picture></a></p>\n\n<p align="center"><a href="https://pengusto.github.io/worldfolio/">Drive through Worldfolio →</a> · <a href="https://github.com/pengusto/worldfolio">Source & credits</a></p>\n\n'
 selected=selected.replace('<p align="center">',worldfolio+'<p align="center">',1)
 about='<details>\n<summary>About this preview</summary>\n\nOriginal GitSkins hero, project cards, wordmark and snake, adapted locally. Penguin banner and actual Kaplum lesson recording retained. Purple city uses actual public GitHub calendar data. Project cards link individually to their repositories. The Creative toolkit uses original colourful Shields badges with logos; project-language percentages describe code composition. Saved SVGs are refreshed by the prepared local updater; scheduled publication remains inactive. Nothing is pushed.\n\n</details>\n'
-md='\n\n'.join((banner,hero,portrait,terminal,selected,city,trail,toolkit,contacts,about))
+support='## Support my work\n\nIf one of my tools or patches helps you, you can [support my open-source work on GitHub Sponsors](https://github.com/sponsors/pengusto). Thank you!\n'
+md='\n\n'.join((banner,hero,portrait,terminal,selected,city,trail,toolkit,contacts,support,about))
 (out/'README.md').write_text(md)
 (out/'NOTES.md').write_text('''# Local fusion preview
 

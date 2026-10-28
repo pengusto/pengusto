@@ -69,6 +69,11 @@
 
 
 
+## Support my work
+
+If one of my tools or patches helps you, you can [support my open-source work on GitHub Sponsors](https://github.com/sponsors/pengusto). Thank you!
+
+
 <details>
 <summary>About this preview</summary>
 
