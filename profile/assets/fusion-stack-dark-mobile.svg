@@ -76,33 +76,33 @@
     <g transform="translate(0,10)"><g class="aura-chip" style="animation:none;opacity:1">
       <circle cx="32" cy="107" r="5" fill="#7355dd" />
       <text x="48" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="800" fill="#f5efff">C#</text>
-      <text x="405" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#7355dd" text-anchor="end">42%</text>
+      <text x="405" y="112" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#7355dd" text-anchor="end">37%</text>
       <rect x="28" y="125.0" width="380.0" height="9" rx="4.5" fill="rgba(255,255,255,0.12)" />
-      <rect class="aura-bar" x="28" y="125.0" width="159.8283261802575" height="9" rx="4.5" fill="#7355dd" opacity="0.95" />
+      <rect class="aura-bar" x="28" y="125.0" width="140.25751072961373" height="9" rx="4.5" fill="#7355dd" opacity="0.95" />
     </g></g><g transform="translate(0,39)"><g class="aura-chip" style="animation:none;opacity:1">
       <circle cx="32" cy="139" r="5" fill="#e55b38" />
       <text x="48" y="144" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="800" fill="#f5efff">HTML</text>
-      <text x="405" y="144" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#e55b38" text-anchor="end">26%</text>
+      <text x="405" y="144" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#e55b38" text-anchor="end">23%</text>
       <rect x="28" y="157.0" width="380.0" height="9" rx="4.5" fill="rgba(255,255,255,0.12)" />
-      <rect class="aura-bar" x="28" y="157.0" width="98.6695278969957" height="9" rx="4.5" fill="#e55b38" opacity="0.95" />
+      <rect class="aura-bar" x="28" y="157.0" width="87.25321888412017" height="9" rx="4.5" fill="#e55b38" opacity="0.95" />
     </g></g><g transform="translate(0,68)"><g class="aura-chip" style="animation:none;opacity:1">
       <circle cx="32" cy="171" r="5" fill="#f1e05a" />
       <text x="48" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="800" fill="#f5efff">JavaScript</text>
-      <text x="405" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#f1e05a" text-anchor="end">17%</text>
+      <text x="405" y="176" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#f1e05a" text-anchor="end">16%</text>
       <rect x="28" y="189.0" width="380.0" height="9" rx="4.5" fill="rgba(255,255,255,0.12)" />
-      <rect class="aura-bar" x="28" y="189.0" width="64.4206008583691" height="9" rx="4.5" fill="#f1e05a" opacity="0.95" />
+      <rect class="aura-bar" x="28" y="189.0" width="61.1587982832618" height="9" rx="4.5" fill="#f1e05a" opacity="0.95" />
     </g></g><g transform="translate(0,97)"><g class="aura-chip" style="animation:none;opacity:1">
-      <circle cx="32" cy="203" r="5" fill="#91d44a" />
-      <text x="48" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="800" fill="#f5efff">TeX</text>
-      <text x="405" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#91d44a" text-anchor="end">8%</text>
+      <circle cx="32" cy="203" r="5" fill="#5594c8" />
+      <text x="48" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="800" fill="#f5efff">Python</text>
+      <text x="405" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#5594c8" text-anchor="end">9%</text>
       <rect x="28" y="221.0" width="380.0" height="9" rx="4.5" fill="rgba(255,255,255,0.12)" />
-      <rect class="aura-bar" x="28" y="221.0" width="30.17167381974249" height="9" rx="4.5" fill="#91d44a" opacity="0.95" />
+      <rect class="aura-bar" x="28" y="221.0" width="34.24892703862661" height="9" rx="4.5" fill="#5594c8" opacity="0.95" />
     </g></g><g transform="translate(0,126)"><g class="aura-chip" style="animation:none;opacity:1">
-      <circle cx="32" cy="235" r="5" fill="#5594c8" />
-      <text x="48" y="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="800" fill="#f5efff">Python</text>
-      <text x="405" y="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#5594c8" text-anchor="end">4%</text>
+      <circle cx="32" cy="235" r="5" fill="#91d44a" />
+      <text x="48" y="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="800" fill="#f5efff">TeX</text>
+      <text x="405" y="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="16" font-weight="850" fill="#91d44a" text-anchor="end">7%</text>
       <rect x="28" y="253.0" width="380.0" height="9" rx="4.5" fill="rgba(255,255,255,0.12)" />
-      <rect class="aura-bar" x="28" y="253.0" width="15.493562231759658" height="9" rx="4.5" fill="#5594c8" opacity="0.95" />
+      <rect class="aura-bar" x="28" y="253.0" width="26.909871244635195" height="9" rx="4.5" fill="#91d44a" opacity="0.95" />
     </g>
     
     </g></g>

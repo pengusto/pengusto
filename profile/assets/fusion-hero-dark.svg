@@ -88,7 +88,7 @@
       </circle>
     </g>
     <rect x="26" y="26" width="808" height="188" rx="20" fill="rgba(8,8,12,0.5)" stroke="#a78bfa" stroke-opacity="0.55"/>
-    <text x="735" y="112" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="34" font-weight="900" letter-spacing="-1" fill="#ac78f7">7</text>
+    <text x="735" y="112" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="34" font-weight="900" letter-spacing="-1" fill="#ac78f7">8</text>
     <text x="735" y="134" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="10" font-weight="800" letter-spacing="2.6" fill="#bdafd0">TOTAL STARS</text>
     <clipPath id="gs-hero-pengusto-dracula-dark-av"><circle cx="96" cy="94" r="45"/></clipPath>
     <circle cx="96" cy="94" r="48" fill="rgba(255,255,255,0.06)" stroke="#a78bfa" stroke-opacity="0.85" stroke-width="2"/>
@@ -107,7 +107,7 @@
       <text x="313" y="185" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="750" fill="#f5efff">JavaScript</text>
     </g><g class="aura-chip" style="animation-delay:270ms">
       <rect x="424" y="166" width="110" height="28" rx="14" fill="rgba(255,255,255,0.055)" stroke="#a78bfa" stroke-opacity="0.68"/>
-      <text x="439" y="185" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="750" fill="#f5efff">TeX</text>
+      <text x="439" y="185" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="750" fill="#f5efff">Python</text>
     </g>
     <path d="M166 76 C246 50 330 50 410 77" fill="none" stroke="url(#gs-hero-pengusto-dracula-dark-shine)" stroke-width="2" stroke-linecap="round" opacity="0.6"/>
     

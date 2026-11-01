@@ -79,7 +79,7 @@
     <ellipse class="aura-orb-b" cx="421.26" cy="243.1" rx="172" ry="101" fill="url(#gs-hero-pengusto-dracula-dark-orb-3)" />
     
     <rect x="15" y="15" width="410" height="285" rx="20" fill="rgba(8,8,12,0.5)" stroke="#a78bfa" stroke-opacity="0.55" />
-    <text x="376" y="80" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="26" font-weight="900" letter-spacing="-1" fill="#ac78f7">7</text>
+    <text x="376" y="80" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="26" font-weight="900" letter-spacing="-1" fill="#ac78f7">8</text>
     <text x="376" y="99" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="8" font-weight="800" letter-spacing="2.6" fill="#bdafd0">TOTAL STARS</text>
     <clipPath id="gs-hero-pengusto-dracula-dark-av"><circle cx="96" cy="94" r="45" /></clipPath>
     <circle cx="96" cy="94" r="48" fill="rgba(255,255,255,0.06)" stroke="#a78bfa" stroke-opacity="0.85" stroke-width="2" />
@@ -98,7 +98,7 @@
       <text x="313" y="185" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="750" fill="#f5efff">JavaScript</text>
     </g></g><g transform="translate(-204,103)"><g class="aura-chip" style="animation:none;opacity:1">
       <rect x="424" y="166" width="110" height="28" rx="14" fill="rgba(255,255,255,0.055)" stroke="#a78bfa" stroke-opacity="0.68" />
-      <text x="439" y="185" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="750" fill="#f5efff">TeX</text>
+      <text x="439" y="185" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif" font-size="12" font-weight="750" fill="#f5efff">Python</text>
     </g>
     </g><text x="28" y="153" font-family="Arial,sans-serif" font-size="14" fill="#bdafd0">AI agents, local-first tools and developer</text><text x="28" y="174" font-family="Arial,sans-serif" font-size="14" fill="#bdafd0">workflows. Useful tools. Thoughtful</text><text x="28" y="195" font-family="Arial,sans-serif" font-size="14" fill="#bdafd0">interactions.</text></g>
 </svg>
