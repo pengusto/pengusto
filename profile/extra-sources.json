@@ -22,54 +22,54 @@
     "mode": "dark",
     "url": "https://www.gitskins.com/api/section/heatmap?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&style=snake&v=cinematic-snake-1&mode=dark",
     "file": "originals/extra-contribution-trail-dark.svg",
-    "sha256": "a8c48ae7c8e8a12b0d073d8a465c186253a197b8b4929d39217128559649185d",
+    "sha256": "1387037e0be18522f7a53793a17f1d01cfee397198d03ae3c3cf63055a2adbf5",
     "viewBox": "0 0 860 264",
-    "bytes": 131461
+    "bytes": 131476
   },
   {
     "name": "contribution-trail",
     "mode": "light",
     "url": "https://www.gitskins.com/api/section/heatmap?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&style=snake&v=cinematic-snake-1&mode=light",
     "file": "originals/extra-contribution-trail-light.svg",
-    "sha256": "1eff90596bebcf76df35bf324cacdf2ebc07d43f4e9ad02b7ea8ff456b80f712",
+    "sha256": "5dcc82bc98b20b754d14be26e7e39e4a1cda15bfbf2c1785eb11b266f3499d49",
     "viewBox": "0 0 860 264",
-    "bytes": 131496
+    "bytes": 131511
   },
   {
     "name": "wow-banner",
     "mode": "dark",
     "url": "https://www.gitskins.com/api/section/hero?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&variant=living-identity&label=Pengusto&v=wow-living-identity-1&mode=dark",
     "file": "originals/extra-wow-banner-dark.svg",
-    "sha256": "d30ede1b20bbb82bc62385f9c9abf3ffe28a380f3ebcd14d240756b3f716a169",
+    "sha256": "0584fa4dfa1d6c1e5a74d89f210ee4f3675cb380db61e1ea4709c2c25d9775e1",
     "viewBox": "0 0 1000 570",
-    "bytes": 83241
+    "bytes": 83243
   },
   {
     "name": "wow-banner",
     "mode": "light",
     "url": "https://www.gitskins.com/api/section/hero?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fu%3Dcff87227102d2ed0bfca9d15bfd420467a2911ae%26v%3D4&variant=living-identity&label=Pengusto&v=wow-living-identity-1&mode=light",
     "file": "originals/extra-wow-banner-light.svg",
-    "sha256": "13c84bd21f29586a62ff7533f37c9042681b6631b18455d9054979d6b190c8df",
+    "sha256": "b79952c09e8695261ad0251664c1e95503c5492e4bc6b3749b04ad2a3ceec1b5",
     "viewBox": "0 0 1000 570",
-    "bytes": 83241
+    "bytes": 83243
   },
   {
     "name": "original-city",
     "mode": "dark",
     "url": "https://www.gitskins.com/api/section/city?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=dark",
     "file": "originals/extra-original-city-dark.svg",
-    "sha256": "e8a0153f54fe4d1ce1e39e121938c96978e0c70cbec980ca37976f3f12a65c11",
+    "sha256": "484f0fa720583b6105ce950f56bc28cca64b2345df17836e971b4eebc3813b07",
     "viewBox": "0 0 860 420",
-    "bytes": 242570
+    "bytes": 243986
   },
   {
     "name": "original-city",
     "mode": "light",
     "url": "https://www.gitskins.com/api/section/city?username=pengusto&theme=aurora&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=light",
     "file": "originals/extra-original-city-light.svg",
-    "sha256": "23ef889832da074196798636423e0b9f4b63d6a33f302ba77272d56030969027",
+    "sha256": "3a8a912b34555430836d4e42c3b7ba8ed895e71b0804eb269373e913c5d0aef1",
     "viewBox": "0 0 860 420",
-    "bytes": 243725
+    "bytes": 245141
   },
   {
     "name": "color-portrait",
