@@ -22,43 +22,43 @@
     "mode": "dark",
     "url": "https://www.gitskins.com/api/section/projects?username=pengusto&theme=dracula&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=dark",
     "file": "originals/gitskins-projects-dark.svg",
-    "sha256": "77780840f5915f2c107e43e5a37ba5bd659e9bf10984939be35ea589d52d4331",
+    "sha256": "648bcb3b78e9983995174c792d65ece5b2b54358a1abbf151ead81bbed99d2ed",
     "viewBox": "0 0 860 452",
-    "bytes": 25329
+    "bytes": 25100
   },
   {
     "section": "projects",
     "mode": "light",
     "url": "https://www.gitskins.com/api/section/projects?username=pengusto&theme=pastel&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=light",
     "file": "originals/gitskins-projects-light.svg",
-    "sha256": "858f8a81400f0bf471ba60f7fa149bb32b97e2f976e2b6d60cff567784c09e37",
+    "sha256": "a02119815e2fd85ed3c927775aabf5afdea2608815baf40ae75f630fe61726a4",
     "viewBox": "0 0 860 452",
-    "bytes": 25293
+    "bytes": 25064
   },
   {
     "section": "heatmap",
     "mode": "dark",
     "url": "https://www.gitskins.com/api/section/heatmap?username=pengusto&theme=dracula&style=jet&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=dark",
     "file": "originals/gitskins-heatmap-dark.svg",
-    "sha256": "f7c1f8e60cbf0db554dabf28ea045ad3e10465b57595c3411cc589db9356a491",
+    "sha256": "e01a935e7f30cb6cb3a1af52dadec22c2cf7f7b093066c3c49d6e5298f1c459a",
     "viewBox": "0 0 860 272",
-    "bytes": 232865
+    "bytes": 232946
   },
   {
     "section": "heatmap",
     "mode": "light",
     "url": "https://www.gitskins.com/api/section/heatmap?username=pengusto&theme=pastel&style=jet&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=light",
     "file": "originals/gitskins-heatmap-light.svg",
-    "sha256": "dc83ede4d062954ed6543f948b411be599a617c6bb5962e526be47ce16ff53b4",
+    "sha256": "364a13c91e104a9da5ce3068b062b254d46a6ed5aeb0d602c0ede802244a3237",
     "viewBox": "0 0 860 272",
-    "bytes": 232856
+    "bytes": 232937
   },
   {
     "section": "stats",
     "mode": "dark",
     "url": "https://www.gitskins.com/api/section/stats?username=pengusto&theme=dracula&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=dark",
     "file": "originals/gitskins-stats-dark.svg",
-    "sha256": "283a9bebf66b1ce677c92dc58b569c9fca5a745b54850b927eee576e46cbbb9c",
+    "sha256": "e6bdf0da7e77a5d58504854c1a668a9e9d70c0315a84da2763bdf62b06c14080",
     "viewBox": "0 0 860 260",
     "bytes": 10398
   },
@@ -67,7 +67,7 @@
     "mode": "light",
     "url": "https://www.gitskins.com/api/section/stats?username=pengusto&theme=pastel&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=light",
     "file": "originals/gitskins-stats-light.svg",
-    "sha256": "3c2c67e8a76652efe9acbacc7feda48f9af82d6d753a28c21c5b4c387b996b70",
+    "sha256": "e4ad7d87372c2cda24e5a840fd37ef073cb96e0deb645fee48f31d1a8a6a490f",
     "viewBox": "0 0 860 260",
     "bytes": 10353
   },
