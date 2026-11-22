@@ -1,5 +1,5 @@
 {
-  "last_success": "2026-11-15T14:35:34.784050+00:00",
+  "last_success": "2026-11-22T15:07:26.260322+00:00",
   "source": "public GitHub calendar and GitSkins section API",
   "changed": [
     "gitskins-sources.json",
@@ -25,6 +25,10 @@
     "assets/fusion-heatmap-dark.svg",
     "assets/fusion-heatmap-light-mobile.svg",
     "assets/fusion-heatmap-light.svg",
+    "assets/fusion-hero-dark-mobile.svg",
+    "assets/fusion-hero-dark.svg",
+    "assets/fusion-hero-light-mobile.svg",
+    "assets/fusion-hero-light.svg",
     "assets/fusion-projects-dark-mobile.svg",
     "assets/fusion-projects-dark.svg",
     "assets/fusion-projects-light-mobile.svg",
@@ -49,6 +53,8 @@
     "originals/extra-wow-banner-light.svg",
     "originals/gitskins-heatmap-dark.svg",
     "originals/gitskins-heatmap-light.svg",
+    "originals/gitskins-hero-dark.svg",
+    "originals/gitskins-hero-light.svg",
     "originals/gitskins-projects-dark.svg",
     "originals/gitskins-projects-light.svg",
     "originals/gitskins-stats-dark.svg",

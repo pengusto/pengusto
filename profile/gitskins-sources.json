@@ -4,7 +4,7 @@
     "mode": "dark",
     "url": "https://www.gitskins.com/api/section/hero?username=pengusto&theme=dracula&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=dark",
     "file": "originals/gitskins-hero-dark.svg",
-    "sha256": "c5d15b33bb8fabed9a457789e5aa86bf6bf1f745853861d57fe847aa05997506",
+    "sha256": "9a849e7fb4d18ce3d38725ec3f05e9db6d0775865d613cb1a0e6897b27763158",
     "viewBox": "0 0 860 240",
     "bytes": 310820
   },
@@ -13,7 +13,7 @@
     "mode": "light",
     "url": "https://www.gitskins.com/api/section/hero?username=pengusto&theme=pastel&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=light",
     "file": "originals/gitskins-hero-light.svg",
-    "sha256": "ff71594738bf0f04e24a51ffb7ac034799a15aff1fb6b6430474214943752fb1",
+    "sha256": "8ed89c8885a8e34692c68c1e4fd188259e17fdbc206baaedeb20afcfcd310e0e",
     "viewBox": "0 0 860 240",
     "bytes": 310811
   },
@@ -22,43 +22,43 @@
     "mode": "dark",
     "url": "https://www.gitskins.com/api/section/projects?username=pengusto&theme=dracula&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=dark",
     "file": "originals/gitskins-projects-dark.svg",
-    "sha256": "648bcb3b78e9983995174c792d65ece5b2b54358a1abbf151ead81bbed99d2ed",
+    "sha256": "29496e739ad6c2d1e5f7f0ebc0f1733f24acc4c781615210393e808745a88e90",
     "viewBox": "0 0 860 452",
-    "bytes": 25100
+    "bytes": 25101
   },
   {
     "section": "projects",
     "mode": "light",
     "url": "https://www.gitskins.com/api/section/projects?username=pengusto&theme=pastel&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=light",
     "file": "originals/gitskins-projects-light.svg",
-    "sha256": "a02119815e2fd85ed3c927775aabf5afdea2608815baf40ae75f630fe61726a4",
+    "sha256": "9549e0829db095494b565e87b412ef84960d696ffa9bbb3fb1bdbf44175da267",
     "viewBox": "0 0 860 452",
-    "bytes": 25064
+    "bytes": 25065
   },
   {
     "section": "heatmap",
     "mode": "dark",
     "url": "https://www.gitskins.com/api/section/heatmap?username=pengusto&theme=dracula&style=jet&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=dark",
     "file": "originals/gitskins-heatmap-dark.svg",
-    "sha256": "e01a935e7f30cb6cb3a1af52dadec22c2cf7f7b093066c3c49d6e5298f1c459a",
+    "sha256": "476e74b6d4f64bfd782ccf78144f87083571d28d01351dc0812864f6557da062",
     "viewBox": "0 0 860 272",
-    "bytes": 232946
+    "bytes": 236276
   },
   {
     "section": "heatmap",
     "mode": "light",
     "url": "https://www.gitskins.com/api/section/heatmap?username=pengusto&theme=pastel&style=jet&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=light",
     "file": "originals/gitskins-heatmap-light.svg",
-    "sha256": "364a13c91e104a9da5ce3068b062b254d46a6ed5aeb0d602c0ede802244a3237",
+    "sha256": "7bb95ea5f692a831a019f88b46e8795a4f80bde3621e346836e4bbfcfb8fdc30",
     "viewBox": "0 0 860 272",
-    "bytes": 232937
+    "bytes": 233794
   },
   {
     "section": "stats",
     "mode": "dark",
     "url": "https://www.gitskins.com/api/section/stats?username=pengusto&theme=dracula&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=dark",
     "file": "originals/gitskins-stats-dark.svg",
-    "sha256": "e6bdf0da7e77a5d58504854c1a668a9e9d70c0315a84da2763bdf62b06c14080",
+    "sha256": "4df9bf3794502220988ec2f8a93320f945726af6c09d6f83eb797d3d73885d65",
     "viewBox": "0 0 860 260",
     "bytes": 10398
   },
@@ -67,7 +67,7 @@
     "mode": "light",
     "url": "https://www.gitskins.com/api/section/stats?username=pengusto&theme=pastel&style=aura&avatar=https%3A%2F%2Favatars.githubusercontent.com%2Fu%2F106893073%3Fv%3D4&mode=light",
     "file": "originals/gitskins-stats-light.svg",
-    "sha256": "e4ad7d87372c2cda24e5a840fd37ef073cb96e0deb645fee48f31d1a8a6a490f",
+    "sha256": "1ca62d9702e0981f27dbd7104f7d1027cb2bf0e67e205eedc920f2015726df8b",
     "viewBox": "0 0 860 260",
     "bytes": 10353
   },
